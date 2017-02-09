@@ -18,6 +18,8 @@ class ViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.tableView.contentInset = UIEdgeInsetsMake(20, 0, 0, 0);
+        self.navigationController!.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName : UIColor.white]
+
 
         func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int){
             view.tintColor = UIColor.red

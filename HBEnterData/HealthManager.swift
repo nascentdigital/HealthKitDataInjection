@@ -8,8 +8,9 @@
 
 import Foundation
 import HealthKit
+import UIKit
 
-class HealthManager {
+class HealthManager: UIViewController {
     
     open static let sharedInstance = HealthManager()
 
@@ -31,6 +32,7 @@ class HealthManager {
     healthKitStore.requestAuthorization(toShare: shareTypes, read: readTypes) { (success, error) -> Void in
     if success {
     print("success")
+        
     } else {
     print("failure")
     }
@@ -39,9 +41,24 @@ class HealthManager {
     }
     }
 
+    //ACTIVITY INDICATOR STUFF
+    var activityIndicator:UIActivityIndicatorView = UIActivityIndicatorView()
+    
+    func start() {
+        activityIndicator.center = self.view.center
+        activityIndicator.hidesWhenStopped = true
+        activityIndicator.activityIndicatorViewStyle = UIActivityIndicatorViewStyle.gray
+        view.addSubview(activityIndicator)
+        
+        activityIndicator.startAnimating()
+    }
+    
+    func stop() {
+        activityIndicator.stopAnimating()
+    }
+    ///////////////////////////////////////////////
 
     func saveSteps(stepsRecorded: Int, date: NSDate) {
-        
         //get date
         //set sample type
         let sampleType = HKQuantityType.quantityType(forIdentifier: HKQuantityTypeIdentifier.stepCount)
@@ -59,6 +76,7 @@ class HealthManager {
             }
             else {
                 print("recorded:  \(date) with \(stepsRecorded)")
+        
             }
         })
         

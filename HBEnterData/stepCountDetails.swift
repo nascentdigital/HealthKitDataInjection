@@ -21,8 +21,17 @@ class stepCountDetails: UIViewController {
     @IBOutlet weak var leastDateRange: UIDatePicker!
     @IBOutlet weak var mostDateRange: UIDatePicker!
     
-    @IBAction func saveButton(_ sender: Any) {
+    
+    @IBAction func saveButton(_ sender: Any ) {
+        useSaveButton()
+        if (true){
+            print("logged")
+        }
+    }
+
+    func useSaveButton() -> Bool {
         //save date range and value range for specific detail
+        self.start()
         let leastStepCount = Int(leastSteps.text!)
         let mostStepCount = Int(mostSteps.text!)
         //let dateFormatter = DateFormatter()
@@ -33,10 +42,7 @@ class stepCountDetails: UIViewController {
         for i in 0 ..< stepsArray.count  {
             HealthManager.sharedInstance.saveSteps(stepsRecorded: stepsArray[i], date: daysArray[i] as NSDate)
         }
-        leastSteps.text = ""
-        mostSteps.text = ""
-        _ = navigationController?.popViewController(animated: true)
-
+        return true;
     }
     
     //calculating days between
@@ -59,6 +65,23 @@ class stepCountDetails: UIViewController {
             daysArray.append(calendar.date(byAdding: .day, value: i, to: start)!)
         }
     }
+
+    //ACTIVITY INDICATOR STUFF
+    var activityIndicator:UIActivityIndicatorView = UIActivityIndicatorView()
     
+    func start() {
+        activityIndicator.center = self.view.center
+        activityIndicator.hidesWhenStopped = true
+        activityIndicator.activityIndicatorViewStyle = UIActivityIndicatorViewStyle.gray
+        view.addSubview(activityIndicator)
+        
+        activityIndicator.startAnimating()
+    }
     
+    func stop() {
+        activityIndicator.stopAnimating()
+    }
+    ///////////////////////////////////////////////
+    
+  
 }

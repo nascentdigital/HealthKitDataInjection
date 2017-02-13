@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "99333EB40F90DBB6A25B7B804592F93A8E8E7568",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A862CEA9E88AA1EAE18410276E1C1CED7F738BCA" : 9223372036854775807,
+    "99333EB40F90DBB6A25B7B804592F93A8E8E7568" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D5A8448A-7C04-42D7-832B-3CAF75393D0F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A862CEA9E88AA1EAE18410276E1C1CED7F738BCA" : "HealthBookiOS-Prod\/",
+    "99333EB40F90DBB6A25B7B804592F93A8E8E7568" : "HealthKitDataInjection\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "HBEnterData",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "HBEnterData.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/nascentdigital\/HealthKitDataInjection.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "99333EB40F90DBB6A25B7B804592F93A8E8E7568"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/gitlab.com\/HealthMessenger\/HealthBookiOS-Prod.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A862CEA9E88AA1EAE18410276E1C1CED7F738BCA"
+    }
+  ]
+}

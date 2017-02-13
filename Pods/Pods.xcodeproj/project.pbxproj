@@ -1,0 +1,1237 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09040A7FC805D0D4A99EF9B3F74D6767 /* URLDataPromise.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEE25A1DBE0CA6ACF7A5020150993C3 /* URLDataPromise.swift */; };
+		0991E26BD3633F4A23730450104BA21E /* GlobalState.m in Sources */ = {isa = PBXBuildFile; fileRef = 2304B6225827C9217808F26641FE8A12 /* GlobalState.m */; };
+		099F896EA9FB518559EC0A0AA85E6E29 /* CALayer+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 47499DE9BFB5C3C0FC999BDA4A171755 /* CALayer+AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A59741E808A237F33076459122C9A4E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0203FCF2E38F9E0B8C4E69853543A3E /* QuartzCore.framework */; };
+		0F20D0854E2C5E35D80ACA4D95C478AE /* PMKQuartzCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 07C82F7BE216A34B99B3AF699B036F0A /* PMKQuartzCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FB18DEF6AF378AB521BBFE678DC8251 /* NSTask+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D311761FCC1B0452BCD2A507F791A0 /* NSTask+AnyPromise.m */; };
+		10EFF59BF187719BDA99BBE57622CBB9 /* AAA-CocoaPods-Hack.h in Headers */ = {isa = PBXBuildFile; fileRef = 4858A881E931C43664DD0E6A7C268C64 /* AAA-CocoaPods-Hack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		180F935B2FBF75AF4D1FC30611F5E0BE /* dispatch_promise.m in Sources */ = {isa = PBXBuildFile; fileRef = F1ECBC238F7281408C985BC90D592DC1 /* dispatch_promise.m */; };
+		18340FDB7308C4AA623E7F0E0ADC45A6 /* after.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195CCBD7F846C77A6A7E24E9FAA6DDAF /* after.swift */; };
+		1BDB44416F345BCF718626C67F976EBC /* NSNotificationCenter+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DCF20F74824A867AAA4C5223314134 /* NSNotificationCenter+Promise.swift */; };
+		1CD344094068792A7314C68ECCF210C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC32878090C4B2B93381956161EC0930 /* Foundation.framework */; };
+		227D30D8852942C1CA5A3330AFE097E9 /* Pods-HBEnterData-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EBC1A9609B1AA4E2793489D17D4DC39 /* Pods-HBEnterData-dummy.m */; };
+		242D0EB3A0652446BA9BE7B93B309D93 /* PMKAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA62BEE4D4E4FF4BD40C918AA758BFE0 /* PMKAlertController.swift */; };
+		2919173ED2093EC894003928DF36E86F /* CALayer+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 61CB3F3324E5554F93073E2667684B5A /* CALayer+AnyPromise.m */; };
+		31A6659494FA8F0CE88C1834C2961787 /* join.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948647C2DBD551F901EC610CCF27DDD1 /* join.swift */; };
+		31A81CC5A978F3878911986C7498F3E6 /* AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F964AF4AA4B2D6E657E79CB33F14D4 /* AnyPromise.m */; };
+		34AC5571E0AAFF73634365A9FB82BDB2 /* race.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DB490836E48AEE14546742341A2338 /* race.swift */; };
+		37179B3D4CBA3C2FC8EE14F904F326E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC32878090C4B2B93381956161EC0930 /* Foundation.framework */; };
+		3AF278C2D5D7366CE93F53DCCD9E5D6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC32878090C4B2B93381956161EC0930 /* Foundation.framework */; };
+		3B8A9E223B04038EADF889AD8A0E51CF /* DispatchQueue+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A83EEF0C80CFF620E537BE4D7182412 /* DispatchQueue+Promise.swift */; };
+		3BED8BF384B8FE8DF1F80253111D4026 /* SwiftGifOrigin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E455FED626485D6A02484ACFB610A91 /* SwiftGifOrigin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F278F17DA73542560EA7A02A1342E83 /* after.m in Sources */ = {isa = PBXBuildFile; fileRef = 622B9054B9BCD9CB1366B375FE1F1883 /* after.m */; };
+		411DCD6AA150D4DECDAD64974C17D354 /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEA6ACF92C109E943EE958F81A88459 /* Promise.swift */; };
+		43ADC88C3EF3D14A29575F393A0F748D /* PMKFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = AD03294DCC7565F0E452E22A5C669684 /* PMKFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4620508430CAF9E4AE8DC9EE1FCD0A99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC32878090C4B2B93381956161EC0930 /* Foundation.framework */; };
+		50DB255EA360774C17F9AA0C45224B6D /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5B4D64D6AC35290F9CD6E7537FADCB /* State.swift */; };
+		51B131785D13310A3DE2A7CE8C9BDEAD /* when.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFC6D391D802B6B1E8B18F5C3775B6E /* when.m */; };
+		58A3B5CD3393ED8B587CAEA5C571775A /* UIViewController+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD46971F8EA1B6912AB26BE34CE4CA71 /* UIViewController+Promise.swift */; };
+		60F9D03158103ABB1B4B009BE0F2454B /* AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = BF090BE57C5E39F225AD10747E1275F9 /* AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72915A73A7A6FBDCF9D0CD54F973EAA3 /* Pods-HBEnterDataUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD13BE575DD72D75F273178AF12D8C5D /* Pods-HBEnterDataUITests-dummy.m */; };
+		7A1808693628D3C943408878C22CC629 /* NSURLSession+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD60466811C19270E6138F0CB5021955 /* NSURLSession+Promise.swift */; };
+		7BCDD95A342D13E22791FF196AA79D4A /* Process+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006032C4DCD113323DE94E172924FBE0 /* Process+Promise.swift */; };
+		7C9C7B9880296A8AFF59DA2A45E81168 /* Promise+AnyPromise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22289F7D70E6FB5B0AD1B0652B58EADB /* Promise+AnyPromise.swift */; };
+		8CEBFCC2A131AEF45074DA9B48651B99 /* hang.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDA95F91DABA8DD52D8A6E9F8E26D29 /* hang.m */; };
+		8D6809E97C396F149E09B967174E6382 /* UIView+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = FDBA0CA418AEA8A71CCE1CD982ED2DA5 /* UIView+AnyPromise.m */; };
+		8EBEFA5DBA293A55EB867A487D36D343 /* UIView+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = EA7DD36207424ED8ED639F47ADDAAD6C /* UIView+AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9764284442C160119D319E8509E1DD79 /* Pods-HBEnterData-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D440B4518390C402021F6CF4A27D9110 /* Pods-HBEnterData-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AD4D92A0AE84E4702F288FDF6162DEF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BF675A168132FD52AED630F977FE906 /* UIKit.framework */; };
+		A0F3B7EB6E318A2EA8112C4C32CAAE9A /* PMKUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 700ACEFDE5035530CFA4287118BC18A0 /* PMKUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A59551E5BE3A4813E6C4971296EC13A9 /* NSURLSession+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = C22A544B69ABAC94D15CE6CD680C6956 /* NSURLSession+AnyPromise.m */; };
+		A5A6D2ED7D2D248588E103A6E7285266 /* Pods-HBEnterDataTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98473A1EA927BFB472B98233DBCBC470 /* Pods-HBEnterDataTests-dummy.m */; };
+		A610B95254D62FD6F9C20A1610E4EDF6 /* Promise+Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441115A41E739DE4CE07CB5B20DFF09F /* Promise+Properties.swift */; };
+		A78B57ABE3C8E2C36F7B270C6A4F014B /* NSTask+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 67800EED9D33E9E081FA9D62B55124C0 /* NSTask+AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABADD8DF8E442E73518AE70FACD83537 /* PromiseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 032C99F0E2724DFBF75CF23D02D756A0 /* PromiseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABEAC60F9E32F6E2757D6280AF4E1389 /* wrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583EEB403211248BE3D93597367FDE2C /* wrap.swift */; };
+		AC78FA13F95CA94A6AB789CE6AE28F23 /* NSObject+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E09297B892583BA648B8FAF5AAA552 /* NSObject+Promise.swift */; };
+		AC7BD74AD37DD59B26AC8C349A2F2DE7 /* join.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BB59CD2B7B7FB71A068146BEB8EBC8 /* join.m */; };
+		B3D2D62DF3577154111693879807F1A8 /* Pods-HBEnterDataUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7D18F1D2DBA8443D8922555B0F864EF /* Pods-HBEnterDataUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B47A8AE113A9F961755604E6BF6DD288 /* SwiftGifOrigin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D9375602C5F3CE24E058240A87C716 /* SwiftGifOrigin-dummy.m */; };
+		B9300232B0704835BC659ADF7DF91949 /* NSNotificationCenter+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 667731A9C3B4B5D7666F9A317A77A31F /* NSNotificationCenter+AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B93599FDC857A71FDA9B750CD4D487F9 /* PromiseKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A6B2B3271AF0556DE75768F5398016 /* PromiseKit-dummy.m */; };
+		BA6D2231BEB9EE77AFB9E9F16B1DC3F2 /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1F605B374B3A02587E415473CD071F /* UIImage+Gif.swift */; };
+		BC128AF93C59AFA851DDA322496FE8F4 /* when.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B19EF6CFEB64A0B0DFFBA2BBF8FB21 /* when.swift */; };
+		C3C5739114A65BC937F64F6D67710840 /* UIView+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722C30B4207F19AF11FDCD4BD6D083C2 /* UIView+Promise.swift */; };
+		D4442C490EA6AE13C849D55D43D8715B /* NSNotificationCenter+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9DAB3807EEB8705C8DEF08B55069EB /* NSNotificationCenter+AnyPromise.m */; };
+		D74965946274163D51D2FD56713F6A11 /* Pods-HBEnterDataTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17DAEBF4F356D588495388E448D578B5 /* Pods-HBEnterDataTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D95279BB9B31FD1D2579873AC94593C9 /* afterlife.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DC0490FF03E094A0EFD04EBD790B62 /* afterlife.swift */; };
+		D9938FFA5F1D1B8B04CD447D45C3A03D /* PromiseKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51AE9F0E4C3E4EC56A9DA1D8B78AC8B4 /* PromiseKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E443CB74B83579D43A8AB227F60E5F3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC32878090C4B2B93381956161EC0930 /* Foundation.framework */; };
+		E59FD03C89565BA45721F2E37A763AF6 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D58723427B7501DD74BBF81D3723F2B /* Error.swift */; };
+		E8EDFF7C70C37AEE9675C38BA9520FCA /* Zalgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABAED1021FF774134887C917EEB00AD /* Zalgo.swift */; };
+		EF00B89BC36799516843C459EAD3DE56 /* AnyPromise.swift in Sources */ = {isa = PBXBuildFile; fileRef = D796E4BEE097E5D604B880F72EF675F4 /* AnyPromise.swift */; };
+		FA2EAAE9BDC248D707F508C9C031A6FF /* UIViewController+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B3A0D1C13BA0390A92E2443CE92A478 /* UIViewController+AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAE14DA60E3FA75FA9823974E13DABC5 /* UIViewController+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = E322BD6B9094472D2FD54DCEE697537C /* UIViewController+AnyPromise.m */; };
+		FD24808992F34DBCB967981D2E4BCF33 /* NSURLSession+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F462E0AB937BDB07891D4944B7D9A53 /* NSURLSession+AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06E11DD344773EFE51D508A97DC310EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F15926F86E83D510944736AD86FF0E71;
+			remoteInfo = PromiseKit;
+		};
+		13B205666F114B30EE6284DA60C8292C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E60B325339FA157FE63E6587BFD08798;
+			remoteInfo = SwiftGifOrigin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		006032C4DCD113323DE94E172924FBE0 /* Process+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Process+Promise.swift"; path = "Extensions/Foundation/Sources/Process+Promise.swift"; sourceTree = "<group>"; };
+		032C99F0E2724DFBF75CF23D02D756A0 /* PromiseKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PromiseKit.h; path = Sources/PromiseKit.h; sourceTree = "<group>"; };
+		07C82F7BE216A34B99B3AF699B036F0A /* PMKQuartzCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMKQuartzCore.h; path = Extensions/QuartzCore/Sources/PMKQuartzCore.h; sourceTree = "<group>"; };
+		08B19EF6CFEB64A0B0DFFBA2BBF8FB21 /* when.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = when.swift; path = Sources/when.swift; sourceTree = "<group>"; };
+		0FEA6ACF92C109E943EE958F81A88459 /* Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Promise.swift; path = Sources/Promise.swift; sourceTree = "<group>"; };
+		16DB490836E48AEE14546742341A2338 /* race.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = race.swift; path = Sources/race.swift; sourceTree = "<group>"; };
+		17DAEBF4F356D588495388E448D578B5 /* Pods-HBEnterDataTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HBEnterDataTests-umbrella.h"; sourceTree = "<group>"; };
+		195CCBD7F846C77A6A7E24E9FAA6DDAF /* after.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = after.swift; path = Sources/after.swift; sourceTree = "<group>"; };
+		19FDEB3DA888FCB7A4789881418F6C36 /* PromiseKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PromiseKit-prefix.pch"; sourceTree = "<group>"; };
+		1A8CD25970CEB1007F61B14ED5C780A1 /* Pods-HBEnterDataUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBEnterDataUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1ABAED1021FF774134887C917EEB00AD /* Zalgo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Zalgo.swift; path = Sources/Zalgo.swift; sourceTree = "<group>"; };
+		21D9375602C5F3CE24E058240A87C716 /* SwiftGifOrigin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftGifOrigin-dummy.m"; sourceTree = "<group>"; };
+		22289F7D70E6FB5B0AD1B0652B58EADB /* Promise+AnyPromise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+AnyPromise.swift"; path = "Sources/Promise+AnyPromise.swift"; sourceTree = "<group>"; };
+		2304B6225827C9217808F26641FE8A12 /* GlobalState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GlobalState.m; path = Sources/GlobalState.m; sourceTree = "<group>"; };
+		313B220C92D61E776C3AA78586C0DD48 /* Pods_HBEnterData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HBEnterData.framework; path = "Pods-HBEnterData.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31D95A5FAE9D4E356C74BB2AF230DDDB /* Pods-HBEnterData-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HBEnterData-resources.sh"; sourceTree = "<group>"; };
+		335E3E3686D4D7DA8342C22998E84A90 /* Pods-HBEnterData.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBEnterData.release.xcconfig"; sourceTree = "<group>"; };
+		382356AF448A79376238BDE3036CC97F /* Pods-HBEnterDataUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HBEnterDataUITests.modulemap"; sourceTree = "<group>"; };
+		3C499C9D85C5615A06177A6A7A9785AC /* Pods-HBEnterData.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBEnterData.debug.xcconfig"; sourceTree = "<group>"; };
+		3E455FED626485D6A02484ACFB610A91 /* SwiftGifOrigin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftGifOrigin-umbrella.h"; sourceTree = "<group>"; };
+		41B241CB70AAD46920C3E026210444FF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		438E816E26CAC210E96DCD2C17B5AF61 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		441115A41E739DE4CE07CB5B20DFF09F /* Promise+Properties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Properties.swift"; path = "Sources/Promise+Properties.swift"; sourceTree = "<group>"; };
+		47499DE9BFB5C3C0FC999BDA4A171755 /* CALayer+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+AnyPromise.h"; path = "Extensions/QuartzCore/Sources/CALayer+AnyPromise.h"; sourceTree = "<group>"; };
+		4858A881E931C43664DD0E6A7C268C64 /* AAA-CocoaPods-Hack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AAA-CocoaPods-Hack.h"; path = "Sources/AAA-CocoaPods-Hack.h"; sourceTree = "<group>"; };
+		4F5AD0B9A98B3F2C157EDB152298E2DA /* Pods-HBEnterData-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBEnterData-acknowledgements.plist"; sourceTree = "<group>"; };
+		4FD07904E20E7EB97D6EE6EDBF936E55 /* SwiftGifOrigin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftGifOrigin.framework; path = SwiftGifOrigin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51AE9F0E4C3E4EC56A9DA1D8B78AC8B4 /* PromiseKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PromiseKit-umbrella.h"; sourceTree = "<group>"; };
+		5248B5214A33D156A314A6F0DC1FAD63 /* PromiseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PromiseKit.framework; path = PromiseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		583EEB403211248BE3D93597367FDE2C /* wrap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = wrap.swift; path = Sources/wrap.swift; sourceTree = "<group>"; };
+		5AA19CFE60B300DC22E9845FCAC098FA /* SwiftGifOrigin.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftGifOrigin.xcconfig; sourceTree = "<group>"; };
+		5BF675A168132FD52AED630F977FE906 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		61CB3F3324E5554F93073E2667684B5A /* CALayer+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+AnyPromise.m"; path = "Extensions/QuartzCore/Sources/CALayer+AnyPromise.m"; sourceTree = "<group>"; };
+		622B9054B9BCD9CB1366B375FE1F1883 /* after.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = after.m; path = Sources/after.m; sourceTree = "<group>"; };
+		667731A9C3B4B5D7666F9A317A77A31F /* NSNotificationCenter+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNotificationCenter+AnyPromise.h"; path = "Extensions/Foundation/Sources/NSNotificationCenter+AnyPromise.h"; sourceTree = "<group>"; };
+		67800EED9D33E9E081FA9D62B55124C0 /* NSTask+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSTask+AnyPromise.h"; path = "Extensions/Foundation/Sources/NSTask+AnyPromise.h"; sourceTree = "<group>"; };
+		69BC832224F4B8FD502EA1CD9753350C /* Pods-HBEnterDataUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBEnterDataUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6B3A0D1C13BA0390A92E2443CE92A478 /* UIViewController+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+AnyPromise.h"; path = "Extensions/UIKit/Sources/UIViewController+AnyPromise.h"; sourceTree = "<group>"; };
+		6D97C9980955ECA7754C9F5E4A002A48 /* SwiftGifOrigin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftGifOrigin.modulemap; sourceTree = "<group>"; };
+		700ACEFDE5035530CFA4287118BC18A0 /* PMKUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMKUIKit.h; path = Extensions/UIKit/Sources/PMKUIKit.h; sourceTree = "<group>"; };
+		70F964AF4AA4B2D6E657E79CB33F14D4 /* AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AnyPromise.m; path = Sources/AnyPromise.m; sourceTree = "<group>"; };
+		722C30B4207F19AF11FDCD4BD6D083C2 /* UIView+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Promise.swift"; path = "Extensions/UIKit/Sources/UIView+Promise.swift"; sourceTree = "<group>"; };
+		74A12DB4FA9822E8A9D1ECA6F10C0049 /* Pods-HBEnterDataTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBEnterDataTests.release.xcconfig"; sourceTree = "<group>"; };
+		75105C090F67C475B6991C77E926E05C /* Pods_HBEnterDataUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HBEnterDataUITests.framework; path = "Pods-HBEnterDataUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F4ACAB1C1D642A54EB71790BAC55F9A /* Pods-HBEnterDataUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBEnterDataUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		86299DFA45933E81023DE96FA4FC853A /* Pods_HBEnterDataTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HBEnterDataTests.framework; path = "Pods-HBEnterDataTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89BA50F61C669FB9D5CBE424A4694001 /* Pods-HBEnterDataTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBEnterDataTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8A83EEF0C80CFF620E537BE4D7182412 /* DispatchQueue+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Promise.swift"; path = "Sources/DispatchQueue+Promise.swift"; sourceTree = "<group>"; };
+		8D58723427B7501DD74BBF81D3723F2B /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Sources/Error.swift; sourceTree = "<group>"; };
+		8F462E0AB937BDB07891D4944B7D9A53 /* NSURLSession+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURLSession+AnyPromise.h"; path = "Extensions/Foundation/Sources/NSURLSession+AnyPromise.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		948647C2DBD551F901EC610CCF27DDD1 /* join.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = join.swift; path = Sources/join.swift; sourceTree = "<group>"; };
+		973EAD1AF3781C48A02A3C81FA90EB14 /* PromiseKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PromiseKit.modulemap; sourceTree = "<group>"; };
+		98473A1EA927BFB472B98233DBCBC470 /* Pods-HBEnterDataTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HBEnterDataTests-dummy.m"; sourceTree = "<group>"; };
+		99FDDAD907AA74805EE0EDE6A5012D29 /* Pods-HBEnterData-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HBEnterData-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9C9C598BF21C7E0A294E06380D7D015F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CFC6D391D802B6B1E8B18F5C3775B6E /* when.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = when.m; path = Sources/when.m; sourceTree = "<group>"; };
+		9EBC1A9609B1AA4E2793489D17D4DC39 /* Pods-HBEnterData-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HBEnterData-dummy.m"; sourceTree = "<group>"; };
+		A1BB59CD2B7B7FB71A068146BEB8EBC8 /* join.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = join.m; path = Sources/join.m; sourceTree = "<group>"; };
+		A3885A73FC60FF04D7D79D3CA9AD2590 /* Pods-HBEnterData-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HBEnterData-frameworks.sh"; sourceTree = "<group>"; };
+		A481391F428A56AB2BE0BEAF01A0AF15 /* Pods-HBEnterDataUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HBEnterDataUITests-resources.sh"; sourceTree = "<group>"; };
+		A5DC0490FF03E094A0EFD04EBD790B62 /* afterlife.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = afterlife.swift; path = Extensions/Foundation/Sources/afterlife.swift; sourceTree = "<group>"; };
+		A7D18F1D2DBA8443D8922555B0F864EF /* Pods-HBEnterDataUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HBEnterDataUITests-umbrella.h"; sourceTree = "<group>"; };
+		A9E09297B892583BA648B8FAF5AAA552 /* NSObject+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+Promise.swift"; path = "Extensions/Foundation/Sources/NSObject+Promise.swift"; sourceTree = "<group>"; };
+		AA5B4D64D6AC35290F9CD6E7537FADCB /* State.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = State.swift; path = Sources/State.swift; sourceTree = "<group>"; };
+		AA62BEE4D4E4FF4BD40C918AA758BFE0 /* PMKAlertController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PMKAlertController.swift; path = Extensions/UIKit/Sources/PMKAlertController.swift; sourceTree = "<group>"; };
+		AD03294DCC7565F0E452E22A5C669684 /* PMKFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMKFoundation.h; path = Extensions/Foundation/Sources/PMKFoundation.h; sourceTree = "<group>"; };
+		AD60466811C19270E6138F0CB5021955 /* NSURLSession+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSURLSession+Promise.swift"; path = "Extensions/Foundation/Sources/NSURLSession+Promise.swift"; sourceTree = "<group>"; };
+		AD9DAB3807EEB8705C8DEF08B55069EB /* NSNotificationCenter+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNotificationCenter+AnyPromise.m"; path = "Extensions/Foundation/Sources/NSNotificationCenter+AnyPromise.m"; sourceTree = "<group>"; };
+		AF69806310EE89271CAA086D38A3B8BC /* Pods-HBEnterDataTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HBEnterDataTests-resources.sh"; sourceTree = "<group>"; };
+		B41CAD6FAC1A1C83B76B26EE56C951E7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCDB76BE35708EEAB5B157E71C663C7A /* Pods-HBEnterDataTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HBEnterDataTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BD13BE575DD72D75F273178AF12D8C5D /* Pods-HBEnterDataUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HBEnterDataUITests-dummy.m"; sourceTree = "<group>"; };
+		BD46971F8EA1B6912AB26BE34CE4CA71 /* UIViewController+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Promise.swift"; path = "Extensions/UIKit/Sources/UIViewController+Promise.swift"; sourceTree = "<group>"; };
+		BE1F605B374B3A02587E415473CD071F /* UIImage+Gif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Gif.swift"; path = "SwiftGifCommon/UIImage+Gif.swift"; sourceTree = "<group>"; };
+		BF090BE57C5E39F225AD10747E1275F9 /* AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AnyPromise.h; path = Sources/AnyPromise.h; sourceTree = "<group>"; };
+		C0D311761FCC1B0452BCD2A507F791A0 /* NSTask+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSTask+AnyPromise.m"; path = "Extensions/Foundation/Sources/NSTask+AnyPromise.m"; sourceTree = "<group>"; };
+		C22A544B69ABAC94D15CE6CD680C6956 /* NSURLSession+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURLSession+AnyPromise.m"; path = "Extensions/Foundation/Sources/NSURLSession+AnyPromise.m"; sourceTree = "<group>"; };
+		C4B9707167D987477E510A5251AB7802 /* Pods-HBEnterDataTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HBEnterDataTests-frameworks.sh"; sourceTree = "<group>"; };
+		D440B4518390C402021F6CF4A27D9110 /* Pods-HBEnterData-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HBEnterData-umbrella.h"; sourceTree = "<group>"; };
+		D796E4BEE097E5D604B880F72EF675F4 /* AnyPromise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyPromise.swift; path = Sources/AnyPromise.swift; sourceTree = "<group>"; };
+		D9AECFB8D8E5E02838C56F4E56AFF332 /* Pods-HBEnterDataTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBEnterDataTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DBEE25A1DBE0CA6ACF7A5020150993C3 /* URLDataPromise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLDataPromise.swift; path = Extensions/Foundation/Sources/URLDataPromise.swift; sourceTree = "<group>"; };
+		DEB2BDD6CAB48DF98ABD307E68683E53 /* PromiseKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PromiseKit.xcconfig; sourceTree = "<group>"; };
+		E0203FCF2E38F9E0B8C4E69853543A3E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		E2A6B2B3271AF0556DE75768F5398016 /* PromiseKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PromiseKit-dummy.m"; sourceTree = "<group>"; };
+		E322BD6B9094472D2FD54DCEE697537C /* UIViewController+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+AnyPromise.m"; path = "Extensions/UIKit/Sources/UIViewController+AnyPromise.m"; sourceTree = "<group>"; };
+		E65FC23450B7B6BC5F0BFEC9528C305A /* Pods-HBEnterDataUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HBEnterDataUITests-frameworks.sh"; sourceTree = "<group>"; };
+		EA3F96AD78991AAECC7DCA790BF01CCF /* Pods-HBEnterDataTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HBEnterDataTests.modulemap"; sourceTree = "<group>"; };
+		EA7DD36207424ED8ED639F47ADDAAD6C /* UIView+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+AnyPromise.h"; path = "Extensions/UIKit/Sources/UIView+AnyPromise.h"; sourceTree = "<group>"; };
+		EC32878090C4B2B93381956161EC0930 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		ED6D937AD443698BB4EFB97EEE0275D9 /* Pods-HBEnterDataUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HBEnterDataUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F1ECBC238F7281408C985BC90D592DC1 /* dispatch_promise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = dispatch_promise.m; path = Sources/dispatch_promise.m; sourceTree = "<group>"; };
+		F5E2E4A731447C5800473EFE7138C126 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9DCF20F74824A867AAA4C5223314134 /* NSNotificationCenter+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSNotificationCenter+Promise.swift"; path = "Extensions/Foundation/Sources/NSNotificationCenter+Promise.swift"; sourceTree = "<group>"; };
+		FDBA0CA418AEA8A71CCE1CD982ED2DA5 /* UIView+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+AnyPromise.m"; path = "Extensions/UIKit/Sources/UIView+AnyPromise.m"; sourceTree = "<group>"; };
+		FE0A72A982382D0B187BFFAFDF23821E /* Pods-HBEnterData.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HBEnterData.modulemap"; sourceTree = "<group>"; };
+		FE6294465347DF7F927D28FFB8AE6129 /* SwiftGifOrigin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftGifOrigin-prefix.pch"; sourceTree = "<group>"; };
+		FFDA95F91DABA8DD52D8A6E9F8E26D29 /* hang.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = hang.m; path = Sources/hang.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63B2C36531A74A74272BBEFF402D396B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37179B3D4CBA3C2FC8EE14F904F326E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B1CF588E32A9DCAAC3EDAACB14F6D05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AF278C2D5D7366CE93F53DCCD9E5D6F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82BC7294F109E26D150DB8A32260703A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4620508430CAF9E4AE8DC9EE1FCD0A99 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DAF71C51EE5DA9D10CA9173DFBDDC61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CD344094068792A7314C68ECCF210C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC529252EDA42777041EC77000B25F0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E443CB74B83579D43A8AB227F60E5F3D /* Foundation.framework in Frameworks */,
+				0A59741E808A237F33076459122C9A4E /* QuartzCore.framework in Frameworks */,
+				9AD4D92A0AE84E4702F288FDF6162DEF /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01B835E7AE9314613790D6687EB19774 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5E2E4A731447C5800473EFE7138C126 /* Info.plist */,
+				973EAD1AF3781C48A02A3C81FA90EB14 /* PromiseKit.modulemap */,
+				DEB2BDD6CAB48DF98ABD307E68683E53 /* PromiseKit.xcconfig */,
+				E2A6B2B3271AF0556DE75768F5398016 /* PromiseKit-dummy.m */,
+				19FDEB3DA888FCB7A4789881418F6C36 /* PromiseKit-prefix.pch */,
+				51AE9F0E4C3E4EC56A9DA1D8B78AC8B4 /* PromiseKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PromiseKit";
+			sourceTree = "<group>";
+		};
+		02F9DD0D47293E3C50EA534BACD42802 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				438E816E26CAC210E96DCD2C17B5AF61 /* Info.plist */,
+				6D97C9980955ECA7754C9F5E4A002A48 /* SwiftGifOrigin.modulemap */,
+				5AA19CFE60B300DC22E9845FCAC098FA /* SwiftGifOrigin.xcconfig */,
+				21D9375602C5F3CE24E058240A87C716 /* SwiftGifOrigin-dummy.m */,
+				FE6294465347DF7F927D28FFB8AE6129 /* SwiftGifOrigin-prefix.pch */,
+				3E455FED626485D6A02484ACFB610A91 /* SwiftGifOrigin-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftGifOrigin";
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5E9260013FA223D81B907D9285F6EA1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		31705E33F89E0D300D13B54FB2E9589F /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				A5DC0490FF03E094A0EFD04EBD790B62 /* afterlife.swift */,
+				667731A9C3B4B5D7666F9A317A77A31F /* NSNotificationCenter+AnyPromise.h */,
+				AD9DAB3807EEB8705C8DEF08B55069EB /* NSNotificationCenter+AnyPromise.m */,
+				F9DCF20F74824A867AAA4C5223314134 /* NSNotificationCenter+Promise.swift */,
+				A9E09297B892583BA648B8FAF5AAA552 /* NSObject+Promise.swift */,
+				67800EED9D33E9E081FA9D62B55124C0 /* NSTask+AnyPromise.h */,
+				C0D311761FCC1B0452BCD2A507F791A0 /* NSTask+AnyPromise.m */,
+				8F462E0AB937BDB07891D4944B7D9A53 /* NSURLSession+AnyPromise.h */,
+				C22A544B69ABAC94D15CE6CD680C6956 /* NSURLSession+AnyPromise.m */,
+				AD60466811C19270E6138F0CB5021955 /* NSURLSession+Promise.swift */,
+				AD03294DCC7565F0E452E22A5C669684 /* PMKFoundation.h */,
+				006032C4DCD113323DE94E172924FBE0 /* Process+Promise.swift */,
+				DBEE25A1DBE0CA6ACF7A5020150993C3 /* URLDataPromise.swift */,
+			);
+			name = Foundation;
+			sourceTree = "<group>";
+		};
+		4786E243157015A9CA376E82E982177C /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				AA62BEE4D4E4FF4BD40C918AA758BFE0 /* PMKAlertController.swift */,
+				700ACEFDE5035530CFA4287118BC18A0 /* PMKUIKit.h */,
+				EA7DD36207424ED8ED639F47ADDAAD6C /* UIView+AnyPromise.h */,
+				FDBA0CA418AEA8A71CCE1CD982ED2DA5 /* UIView+AnyPromise.m */,
+				722C30B4207F19AF11FDCD4BD6D083C2 /* UIView+Promise.swift */,
+				6B3A0D1C13BA0390A92E2443CE92A478 /* UIViewController+AnyPromise.h */,
+				E322BD6B9094472D2FD54DCEE697537C /* UIViewController+AnyPromise.m */,
+				BD46971F8EA1B6912AB26BE34CE4CA71 /* UIViewController+Promise.swift */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		4C4F0CA189DAE276E87A716081918440 /* PromiseKit */ = {
+			isa = PBXGroup;
+			children = (
+				FA5FB215F72482AE42DF7E3EE1D40B66 /* CorePromise */,
+				31705E33F89E0D300D13B54FB2E9589F /* Foundation */,
+				AE0B2EA67A1B1975ECACF405ABD3E7E5 /* QuartzCore */,
+				01B835E7AE9314613790D6687EB19774 /* Support Files */,
+				4786E243157015A9CA376E82E982177C /* UIKit */,
+			);
+			name = PromiseKit;
+			path = PromiseKit;
+			sourceTree = "<group>";
+		};
+		59871B00F013B194392CA58966505AEA /* SwiftGifOrigin */ = {
+			isa = PBXGroup;
+			children = (
+				BE1F605B374B3A02587E415473CD071F /* UIImage+Gif.swift */,
+				02F9DD0D47293E3C50EA534BACD42802 /* Support Files */,
+			);
+			name = SwiftGifOrigin;
+			path = SwiftGifOrigin;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				D6ED32A7061D5D2B35D1122D2A4915AD /* Pods */,
+				EDCE08D29A96B3ED8F0605C022E2172E /* Products */,
+				8BB74EE70E497790D244F89F82B4DAC5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7EAE65D4115BDA0D2D8CAF5986CAA022 /* Pods-HBEnterDataUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9C9C598BF21C7E0A294E06380D7D015F /* Info.plist */,
+				382356AF448A79376238BDE3036CC97F /* Pods-HBEnterDataUITests.modulemap */,
+				ED6D937AD443698BB4EFB97EEE0275D9 /* Pods-HBEnterDataUITests-acknowledgements.markdown */,
+				69BC832224F4B8FD502EA1CD9753350C /* Pods-HBEnterDataUITests-acknowledgements.plist */,
+				BD13BE575DD72D75F273178AF12D8C5D /* Pods-HBEnterDataUITests-dummy.m */,
+				E65FC23450B7B6BC5F0BFEC9528C305A /* Pods-HBEnterDataUITests-frameworks.sh */,
+				A481391F428A56AB2BE0BEAF01A0AF15 /* Pods-HBEnterDataUITests-resources.sh */,
+				A7D18F1D2DBA8443D8922555B0F864EF /* Pods-HBEnterDataUITests-umbrella.h */,
+				7F4ACAB1C1D642A54EB71790BAC55F9A /* Pods-HBEnterDataUITests.debug.xcconfig */,
+				1A8CD25970CEB1007F61B14ED5C780A1 /* Pods-HBEnterDataUITests.release.xcconfig */,
+			);
+			name = "Pods-HBEnterDataUITests";
+			path = "Target Support Files/Pods-HBEnterDataUITests";
+			sourceTree = "<group>";
+		};
+		8BB74EE70E497790D244F89F82B4DAC5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3230F7571531523338ABA0D1D498BA6 /* Pods-HBEnterData */,
+				926C1493D435A4B946985B9CB278BED0 /* Pods-HBEnterDataTests */,
+				7EAE65D4115BDA0D2D8CAF5986CAA022 /* Pods-HBEnterDataUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		926C1493D435A4B946985B9CB278BED0 /* Pods-HBEnterDataTests */ = {
+			isa = PBXGroup;
+			children = (
+				41B241CB70AAD46920C3E026210444FF /* Info.plist */,
+				EA3F96AD78991AAECC7DCA790BF01CCF /* Pods-HBEnterDataTests.modulemap */,
+				BCDB76BE35708EEAB5B157E71C663C7A /* Pods-HBEnterDataTests-acknowledgements.markdown */,
+				D9AECFB8D8E5E02838C56F4E56AFF332 /* Pods-HBEnterDataTests-acknowledgements.plist */,
+				98473A1EA927BFB472B98233DBCBC470 /* Pods-HBEnterDataTests-dummy.m */,
+				C4B9707167D987477E510A5251AB7802 /* Pods-HBEnterDataTests-frameworks.sh */,
+				AF69806310EE89271CAA086D38A3B8BC /* Pods-HBEnterDataTests-resources.sh */,
+				17DAEBF4F356D588495388E448D578B5 /* Pods-HBEnterDataTests-umbrella.h */,
+				89BA50F61C669FB9D5CBE424A4694001 /* Pods-HBEnterDataTests.debug.xcconfig */,
+				74A12DB4FA9822E8A9D1ECA6F10C0049 /* Pods-HBEnterDataTests.release.xcconfig */,
+			);
+			name = "Pods-HBEnterDataTests";
+			path = "Target Support Files/Pods-HBEnterDataTests";
+			sourceTree = "<group>";
+		};
+		A3230F7571531523338ABA0D1D498BA6 /* Pods-HBEnterData */ = {
+			isa = PBXGroup;
+			children = (
+				B41CAD6FAC1A1C83B76B26EE56C951E7 /* Info.plist */,
+				FE0A72A982382D0B187BFFAFDF23821E /* Pods-HBEnterData.modulemap */,
+				99FDDAD907AA74805EE0EDE6A5012D29 /* Pods-HBEnterData-acknowledgements.markdown */,
+				4F5AD0B9A98B3F2C157EDB152298E2DA /* Pods-HBEnterData-acknowledgements.plist */,
+				9EBC1A9609B1AA4E2793489D17D4DC39 /* Pods-HBEnterData-dummy.m */,
+				A3885A73FC60FF04D7D79D3CA9AD2590 /* Pods-HBEnterData-frameworks.sh */,
+				31D95A5FAE9D4E356C74BB2AF230DDDB /* Pods-HBEnterData-resources.sh */,
+				D440B4518390C402021F6CF4A27D9110 /* Pods-HBEnterData-umbrella.h */,
+				3C499C9D85C5615A06177A6A7A9785AC /* Pods-HBEnterData.debug.xcconfig */,
+				335E3E3686D4D7DA8342C22998E84A90 /* Pods-HBEnterData.release.xcconfig */,
+			);
+			name = "Pods-HBEnterData";
+			path = "Target Support Files/Pods-HBEnterData";
+			sourceTree = "<group>";
+		};
+		AE0B2EA67A1B1975ECACF405ABD3E7E5 /* QuartzCore */ = {
+			isa = PBXGroup;
+			children = (
+				47499DE9BFB5C3C0FC999BDA4A171755 /* CALayer+AnyPromise.h */,
+				61CB3F3324E5554F93073E2667684B5A /* CALayer+AnyPromise.m */,
+				07C82F7BE216A34B99B3AF699B036F0A /* PMKQuartzCore.h */,
+			);
+			name = QuartzCore;
+			sourceTree = "<group>";
+		};
+		D6ED32A7061D5D2B35D1122D2A4915AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C4F0CA189DAE276E87A716081918440 /* PromiseKit */,
+				59871B00F013B194392CA58966505AEA /* SwiftGifOrigin */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E5E9260013FA223D81B907D9285F6EA1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EC32878090C4B2B93381956161EC0930 /* Foundation.framework */,
+				E0203FCF2E38F9E0B8C4E69853543A3E /* QuartzCore.framework */,
+				5BF675A168132FD52AED630F977FE906 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EDCE08D29A96B3ED8F0605C022E2172E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				313B220C92D61E776C3AA78586C0DD48 /* Pods_HBEnterData.framework */,
+				86299DFA45933E81023DE96FA4FC853A /* Pods_HBEnterDataTests.framework */,
+				75105C090F67C475B6991C77E926E05C /* Pods_HBEnterDataUITests.framework */,
+				5248B5214A33D156A314A6F0DC1FAD63 /* PromiseKit.framework */,
+				4FD07904E20E7EB97D6EE6EDBF936E55 /* SwiftGifOrigin.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA5FB215F72482AE42DF7E3EE1D40B66 /* CorePromise */ = {
+			isa = PBXGroup;
+			children = (
+				4858A881E931C43664DD0E6A7C268C64 /* AAA-CocoaPods-Hack.h */,
+				622B9054B9BCD9CB1366B375FE1F1883 /* after.m */,
+				195CCBD7F846C77A6A7E24E9FAA6DDAF /* after.swift */,
+				BF090BE57C5E39F225AD10747E1275F9 /* AnyPromise.h */,
+				70F964AF4AA4B2D6E657E79CB33F14D4 /* AnyPromise.m */,
+				D796E4BEE097E5D604B880F72EF675F4 /* AnyPromise.swift */,
+				F1ECBC238F7281408C985BC90D592DC1 /* dispatch_promise.m */,
+				8A83EEF0C80CFF620E537BE4D7182412 /* DispatchQueue+Promise.swift */,
+				8D58723427B7501DD74BBF81D3723F2B /* Error.swift */,
+				2304B6225827C9217808F26641FE8A12 /* GlobalState.m */,
+				FFDA95F91DABA8DD52D8A6E9F8E26D29 /* hang.m */,
+				A1BB59CD2B7B7FB71A068146BEB8EBC8 /* join.m */,
+				948647C2DBD551F901EC610CCF27DDD1 /* join.swift */,
+				0FEA6ACF92C109E943EE958F81A88459 /* Promise.swift */,
+				22289F7D70E6FB5B0AD1B0652B58EADB /* Promise+AnyPromise.swift */,
+				441115A41E739DE4CE07CB5B20DFF09F /* Promise+Properties.swift */,
+				032C99F0E2724DFBF75CF23D02D756A0 /* PromiseKit.h */,
+				16DB490836E48AEE14546742341A2338 /* race.swift */,
+				AA5B4D64D6AC35290F9CD6E7537FADCB /* State.swift */,
+				9CFC6D391D802B6B1E8B18F5C3775B6E /* when.m */,
+				08B19EF6CFEB64A0B0DFFBA2BBF8FB21 /* when.swift */,
+				583EEB403211248BE3D93597367FDE2C /* wrap.swift */,
+				1ABAED1021FF774134887C917EEB00AD /* Zalgo.swift */,
+			);
+			name = CorePromise;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		53212B5F1972CE2903B0E14D720E2D81 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BED8BF384B8FE8DF1F80253111D4026 /* SwiftGifOrigin-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81760CA005EF2BAB07B00658B5D5431F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9764284442C160119D319E8509E1DD79 /* Pods-HBEnterData-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9344E5366692194557961FA1EEA6A052 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D74965946274163D51D2FD56713F6A11 /* Pods-HBEnterDataTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0E13993C337A0C904F34180CECA4E59 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10EFF59BF187719BDA99BBE57622CBB9 /* AAA-CocoaPods-Hack.h in Headers */,
+				60F9D03158103ABB1B4B009BE0F2454B /* AnyPromise.h in Headers */,
+				099F896EA9FB518559EC0A0AA85E6E29 /* CALayer+AnyPromise.h in Headers */,
+				B9300232B0704835BC659ADF7DF91949 /* NSNotificationCenter+AnyPromise.h in Headers */,
+				A78B57ABE3C8E2C36F7B270C6A4F014B /* NSTask+AnyPromise.h in Headers */,
+				FD24808992F34DBCB967981D2E4BCF33 /* NSURLSession+AnyPromise.h in Headers */,
+				43ADC88C3EF3D14A29575F393A0F748D /* PMKFoundation.h in Headers */,
+				0F20D0854E2C5E35D80ACA4D95C478AE /* PMKQuartzCore.h in Headers */,
+				A0F3B7EB6E318A2EA8112C4C32CAAE9A /* PMKUIKit.h in Headers */,
+				D9938FFA5F1D1B8B04CD447D45C3A03D /* PromiseKit-umbrella.h in Headers */,
+				ABADD8DF8E442E73518AE70FACD83537 /* PromiseKit.h in Headers */,
+				8EBEFA5DBA293A55EB867A487D36D343 /* UIView+AnyPromise.h in Headers */,
+				FA2EAAE9BDC248D707F508C9C031A6FF /* UIViewController+AnyPromise.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E79B41BE8D81AF74107B83C5D1443FCA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D2D62DF3577154111693879807F1A8 /* Pods-HBEnterDataUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0011FA20F9CCF0C5A83F2A4652E17512 /* Pods-HBEnterDataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1601EDCD76C3A06A2A3D3E8689B1553 /* Build configuration list for PBXNativeTarget "Pods-HBEnterDataTests" */;
+			buildPhases = (
+				88FB231085167750E96B023BB1CDD293 /* Sources */,
+				63B2C36531A74A74272BBEFF402D396B /* Frameworks */,
+				9344E5366692194557961FA1EEA6A052 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HBEnterDataTests";
+			productName = "Pods-HBEnterDataTests";
+			productReference = 86299DFA45933E81023DE96FA4FC853A /* Pods_HBEnterDataTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		894322FEDACC8BF5A63854B52F81775B /* Pods-HBEnterData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 759283A4DF8821307D8CD21071C24BE6 /* Build configuration list for PBXNativeTarget "Pods-HBEnterData" */;
+			buildPhases = (
+				365ECA62853C073B41CEB84044F09B0C /* Sources */,
+				6B1CF588E32A9DCAAC3EDAACB14F6D05 /* Frameworks */,
+				81760CA005EF2BAB07B00658B5D5431F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92F07887EF016EA33DC9E5C316F913F2 /* PBXTargetDependency */,
+				3468D7822F953951690E3594520A1176 /* PBXTargetDependency */,
+			);
+			name = "Pods-HBEnterData";
+			productName = "Pods-HBEnterData";
+			productReference = 313B220C92D61E776C3AA78586C0DD48 /* Pods_HBEnterData.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E60B325339FA157FE63E6587BFD08798 /* SwiftGifOrigin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB0F027569BCA553016B342F7F746338 /* Build configuration list for PBXNativeTarget "SwiftGifOrigin" */;
+			buildPhases = (
+				4FDE1C7AC8AFB96338F0E2580118851F /* Sources */,
+				82BC7294F109E26D150DB8A32260703A /* Frameworks */,
+				53212B5F1972CE2903B0E14D720E2D81 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftGifOrigin;
+			productName = SwiftGifOrigin;
+			productReference = 4FD07904E20E7EB97D6EE6EDBF936E55 /* SwiftGifOrigin.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F15926F86E83D510944736AD86FF0E71 /* PromiseKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59953CF3E6D7F0DE1C9F4AFD7738DF12 /* Build configuration list for PBXNativeTarget "PromiseKit" */;
+			buildPhases = (
+				8F53606A8B42833A65BF69C1AC0A706B /* Sources */,
+				DC529252EDA42777041EC77000B25F0D /* Frameworks */,
+				C0E13993C337A0C904F34180CECA4E59 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PromiseKit;
+			productName = PromiseKit;
+			productReference = 5248B5214A33D156A314A6F0DC1FAD63 /* PromiseKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F52395251DA8A58A116772BB4FE75D81 /* Pods-HBEnterDataUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE1649E99AE1DDDACDE7FF81C31BA4DB /* Build configuration list for PBXNativeTarget "Pods-HBEnterDataUITests" */;
+			buildPhases = (
+				69515E025D2FAB454C652679E5A14283 /* Sources */,
+				9DAF71C51EE5DA9D10CA9173DFBDDC61 /* Frameworks */,
+				E79B41BE8D81AF74107B83C5D1443FCA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HBEnterDataUITests";
+			productName = "Pods-HBEnterDataUITests";
+			productReference = 75105C090F67C475B6991C77E926E05C /* Pods_HBEnterDataUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = EDCE08D29A96B3ED8F0605C022E2172E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				894322FEDACC8BF5A63854B52F81775B /* Pods-HBEnterData */,
+				0011FA20F9CCF0C5A83F2A4652E17512 /* Pods-HBEnterDataTests */,
+				F52395251DA8A58A116772BB4FE75D81 /* Pods-HBEnterDataUITests */,
+				F15926F86E83D510944736AD86FF0E71 /* PromiseKit */,
+				E60B325339FA157FE63E6587BFD08798 /* SwiftGifOrigin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		365ECA62853C073B41CEB84044F09B0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227D30D8852942C1CA5A3330AFE097E9 /* Pods-HBEnterData-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FDE1C7AC8AFB96338F0E2580118851F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B47A8AE113A9F961755604E6BF6DD288 /* SwiftGifOrigin-dummy.m in Sources */,
+				BA6D2231BEB9EE77AFB9E9F16B1DC3F2 /* UIImage+Gif.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69515E025D2FAB454C652679E5A14283 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72915A73A7A6FBDCF9D0CD54F973EAA3 /* Pods-HBEnterDataUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88FB231085167750E96B023BB1CDD293 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5A6D2ED7D2D248588E103A6E7285266 /* Pods-HBEnterDataTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F53606A8B42833A65BF69C1AC0A706B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F278F17DA73542560EA7A02A1342E83 /* after.m in Sources */,
+				18340FDB7308C4AA623E7F0E0ADC45A6 /* after.swift in Sources */,
+				D95279BB9B31FD1D2579873AC94593C9 /* afterlife.swift in Sources */,
+				31A81CC5A978F3878911986C7498F3E6 /* AnyPromise.m in Sources */,
+				EF00B89BC36799516843C459EAD3DE56 /* AnyPromise.swift in Sources */,
+				2919173ED2093EC894003928DF36E86F /* CALayer+AnyPromise.m in Sources */,
+				180F935B2FBF75AF4D1FC30611F5E0BE /* dispatch_promise.m in Sources */,
+				3B8A9E223B04038EADF889AD8A0E51CF /* DispatchQueue+Promise.swift in Sources */,
+				E59FD03C89565BA45721F2E37A763AF6 /* Error.swift in Sources */,
+				0991E26BD3633F4A23730450104BA21E /* GlobalState.m in Sources */,
+				8CEBFCC2A131AEF45074DA9B48651B99 /* hang.m in Sources */,
+				AC7BD74AD37DD59B26AC8C349A2F2DE7 /* join.m in Sources */,
+				31A6659494FA8F0CE88C1834C2961787 /* join.swift in Sources */,
+				D4442C490EA6AE13C849D55D43D8715B /* NSNotificationCenter+AnyPromise.m in Sources */,
+				1BDB44416F345BCF718626C67F976EBC /* NSNotificationCenter+Promise.swift in Sources */,
+				AC78FA13F95CA94A6AB789CE6AE28F23 /* NSObject+Promise.swift in Sources */,
+				0FB18DEF6AF378AB521BBFE678DC8251 /* NSTask+AnyPromise.m in Sources */,
+				A59551E5BE3A4813E6C4971296EC13A9 /* NSURLSession+AnyPromise.m in Sources */,
+				7A1808693628D3C943408878C22CC629 /* NSURLSession+Promise.swift in Sources */,
+				242D0EB3A0652446BA9BE7B93B309D93 /* PMKAlertController.swift in Sources */,
+				7BCDD95A342D13E22791FF196AA79D4A /* Process+Promise.swift in Sources */,
+				7C9C7B9880296A8AFF59DA2A45E81168 /* Promise+AnyPromise.swift in Sources */,
+				A610B95254D62FD6F9C20A1610E4EDF6 /* Promise+Properties.swift in Sources */,
+				411DCD6AA150D4DECDAD64974C17D354 /* Promise.swift in Sources */,
+				B93599FDC857A71FDA9B750CD4D487F9 /* PromiseKit-dummy.m in Sources */,
+				34AC5571E0AAFF73634365A9FB82BDB2 /* race.swift in Sources */,
+				50DB255EA360774C17F9AA0C45224B6D /* State.swift in Sources */,
+				8D6809E97C396F149E09B967174E6382 /* UIView+AnyPromise.m in Sources */,
+				C3C5739114A65BC937F64F6D67710840 /* UIView+Promise.swift in Sources */,
+				FAE14DA60E3FA75FA9823974E13DABC5 /* UIViewController+AnyPromise.m in Sources */,
+				58A3B5CD3393ED8B587CAEA5C571775A /* UIViewController+Promise.swift in Sources */,
+				09040A7FC805D0D4A99EF9B3F74D6767 /* URLDataPromise.swift in Sources */,
+				51B131785D13310A3DE2A7CE8C9BDEAD /* when.m in Sources */,
+				BC128AF93C59AFA851DDA322496FE8F4 /* when.swift in Sources */,
+				ABEAC60F9E32F6E2757D6280AF4E1389 /* wrap.swift in Sources */,
+				E8EDFF7C70C37AEE9675C38BA9520FCA /* Zalgo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3468D7822F953951690E3594520A1176 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftGifOrigin;
+			target = E60B325339FA157FE63E6587BFD08798 /* SwiftGifOrigin */;
+			targetProxy = 13B205666F114B30EE6284DA60C8292C /* PBXContainerItemProxy */;
+		};
+		92F07887EF016EA33DC9E5C316F913F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PromiseKit;
+			target = F15926F86E83D510944736AD86FF0E71 /* PromiseKit */;
+			targetProxy = 06E11DD344773EFE51D508A97DC310EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C71130698B571D5714A9004EF382530 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74A12DB4FA9822E8A9D1ECA6F10C0049 /* Pods-HBEnterDataTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HBEnterDataTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HBEnterDataTests/Pods-HBEnterDataTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HBEnterDataTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		261EDFF202FD2E08062E51BB6DE3D270 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F4ACAB1C1D642A54EB71790BAC55F9A /* Pods-HBEnterDataUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HBEnterDataUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HBEnterDataUITests/Pods-HBEnterDataUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HBEnterDataUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3D589A123A10FB6BCFA2AB406D55D56C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AA19CFE60B300DC22E9845FCAC098FA /* SwiftGifOrigin.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftGifOrigin/SwiftGifOrigin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftGifOrigin/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftGifOrigin/SwiftGifOrigin.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftGifOrigin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4AB1BFB8663E94742B8037F05F1D1DAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A8CD25970CEB1007F61B14ED5C780A1 /* Pods-HBEnterDataUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HBEnterDataUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HBEnterDataUITests/Pods-HBEnterDataUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HBEnterDataUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5A1CC786DA53E7C0C860F8EC90788326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 335E3E3686D4D7DA8342C22998E84A90 /* Pods-HBEnterData.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HBEnterData/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HBEnterData/Pods-HBEnterData.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HBEnterData;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		835C7EF5B2461CD70A94FFDAEBCF676E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEB2BDD6CAB48DF98ABD307E68683E53 /* PromiseKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PromiseKit/PromiseKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PromiseKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PromiseKit/PromiseKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PromiseKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8EC7967C252A4977712881DF650D727F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEB2BDD6CAB48DF98ABD307E68683E53 /* PromiseKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PromiseKit/PromiseKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PromiseKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PromiseKit/PromiseKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PromiseKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		91403AB89EB691DEFE7B7C3169C21E37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89BA50F61C669FB9D5CBE424A4694001 /* Pods-HBEnterDataTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HBEnterDataTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HBEnterDataTests/Pods-HBEnterDataTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HBEnterDataTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E651159D66AB2F638DF5B16624113298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C499C9D85C5615A06177A6A7A9785AC /* Pods-HBEnterData.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HBEnterData/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HBEnterData/Pods-HBEnterData.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HBEnterData;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E8DD5BF937E95BCA8C94542E3E4B4C6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AA19CFE60B300DC22E9845FCAC098FA /* SwiftGifOrigin.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftGifOrigin/SwiftGifOrigin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftGifOrigin/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftGifOrigin/SwiftGifOrigin.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftGifOrigin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
+				B7324857C38B065FEB1EEE3105C2367A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59953CF3E6D7F0DE1C9F4AFD7738DF12 /* Build configuration list for PBXNativeTarget "PromiseKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				835C7EF5B2461CD70A94FFDAEBCF676E /* Debug */,
+				8EC7967C252A4977712881DF650D727F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		759283A4DF8821307D8CD21071C24BE6 /* Build configuration list for PBXNativeTarget "Pods-HBEnterData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E651159D66AB2F638DF5B16624113298 /* Debug */,
+				5A1CC786DA53E7C0C860F8EC90788326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1601EDCD76C3A06A2A3D3E8689B1553 /* Build configuration list for PBXNativeTarget "Pods-HBEnterDataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91403AB89EB691DEFE7B7C3169C21E37 /* Debug */,
+				0C71130698B571D5714A9004EF382530 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE1649E99AE1DDDACDE7FF81C31BA4DB /* Build configuration list for PBXNativeTarget "Pods-HBEnterDataUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				261EDFF202FD2E08062E51BB6DE3D270 /* Debug */,
+				4AB1BFB8663E94742B8037F05F1D1DAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB0F027569BCA553016B342F7F746338 /* Build configuration list for PBXNativeTarget "SwiftGifOrigin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8DD5BF937E95BCA8C94542E3E4B4C6F /* Debug */,
+				3D589A123A10FB6BCFA2AB406D55D56C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

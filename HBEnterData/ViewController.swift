@@ -13,12 +13,15 @@ class ViewController: UITableViewController {
     
     let healthKitStore = HKHealthStore()
     
-    let options = ["Step Count"]
+    var identities = [String]()
+    var options = [String]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.tableView.contentInset = UIEdgeInsetsMake(20, 0, 0, 0);
         self.navigationController!.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName : UIColor.white]
+        options = ["Step Count", "Blood Pressure"]
+        identities = ["A","B"]
 
 
         func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int){
@@ -45,5 +48,10 @@ class ViewController: UITableViewController {
         return cell
     }
 
-
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let vcName = identities[indexPath.row]
+        let viewController = storyboard?.instantiateViewController(withIdentifier: vcName)
+        self.navigationController?.pushViewController(viewController!, animated: true)
+        
+    }
 }

@@ -1,0 +1,6 @@
+framework module Pods_HBEnterDataUITests {
+  umbrella header "Pods-HBEnterDataUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

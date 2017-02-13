@@ -1,40 +1,43 @@
 //
-//  stepCountDetails.swift
+//  bloodPressureDetails.swift
 //  HBEnterData
 //
-//  Created by Allyson on 2017-02-08.
+//  Created by Allyson on 2017-02-13.
 //  Copyright © 2017 Allyson. All rights reserved.
 //
 
+import Foundation
 import UIKit
 import HealthKit
 import PromiseKit
 
 
-class stepCountDetails: UIViewController {
+class bloodPressureDetails: UIViewController {
     
-    let healthKitStore = HKHealthStore()
+    /*let healthKitStore = HKHealthStore()
     let current = Date()
     var stepsArray = [Int]()
     var daysArray = [Date]()
-
-    @IBOutlet weak var leastSteps: UITextField!
-    @IBOutlet weak var mostSteps: UITextField!
+    
+    @IBOutlet weak var leastSystolic: UITextField!
+    @IBOutlet weak var mostSystolic: UITextField!
+    @IBOutlet weak var leastDystolic: UITextField!
+    @IBOutlet weak var mostDystolic: UITextField!
     @IBOutlet weak var leastDateRange: UIDatePicker!
     @IBOutlet weak var mostDateRange: UIDatePicker!
     @IBOutlet weak var loaderBack: UIImageView!
     @IBOutlet weak var loader: UIImageView!
     @IBOutlet weak var loadingText: UITextField!
     @IBOutlet weak var submit: UIBarButtonItem!
-
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        loader.loadGif(name: "leftshark")
-        loader.isHidden = true
-        loaderBack.alpha = 0.5
-        loaderBack.isHidden = true
-        loadingText.isHidden = true
+//        loader.loadGif(name: "leftshark")
+//        loader.isHidden = true
+//        loaderBack.alpha = 0.5
+//        loaderBack.isHidden = true
+//        loadingText.isHidden = true
     }
     
     //calculating days between
@@ -59,7 +62,7 @@ class stepCountDetails: UIViewController {
     }
     
     //ACTIVITY INDICATOR STUFF
-
+    
     var activityIndicator:UIActivityIndicatorView = UIActivityIndicatorView()
     
     func start() {
@@ -74,7 +77,7 @@ class stepCountDetails: UIViewController {
     func stop() {
         activityIndicator.stopAnimating()
     }
-    
+    /*
     func unclickable() {
         submit.isEnabled = false
         leastDateRange.isEnabled = false
@@ -99,31 +102,32 @@ class stepCountDetails: UIViewController {
         navigationItem.hidesBackButton = false
     }
     func useSaveButton(){
-            let leastStepCount = Int(leastSteps.text!)
-            let mostStepCount = Int(mostSteps.text!)
-            let startDate = leastDateRange.date
-            let endDate = mostDateRange.date
-            createData(leastStep: leastStepCount!, mostStep: mostStepCount!, start: startDate, end: endDate)
-            unclickable()
-            for i in 0 ..< self.stepsArray.count  {
-                    HealthManager.sharedInstance.saveSteps(stepsRecorded: self.stepsArray[i], date: self.daysArray[i] as NSDate)
-                }
+        let leastStepCount = Int(leastSteps.text!)
+        let mostStepCount = Int(mostSteps.text!)
+        let startDate = leastDateRange.date
+        let endDate = mostDateRange.date
+        createData(leastStep: leastStepCount!, mostStep: mostStepCount!, start: startDate, end: endDate)
+        unclickable()
+        for i in 0 ..< self.stepsArray.count  {
+            HealthManager.sharedInstance.saveSteps(stepsRecorded: self.stepsArray[i], date: self.daysArray[i] as NSDate)
+        }
         
-            var when = DispatchTime.now() + 2
+        var when = DispatchTime.now() + 3
         
-            if (self.stepsArray.count > 365) {
-                when = DispatchTime.now() + 4
-            }
-    
-            DispatchQueue.main.asyncAfter(deadline: when) {
-                self.clickable()
-            }
-    
+        if (self.stepsArray.count > 365) {
+            when = DispatchTime.now() + 5
+        }
+        
+        DispatchQueue.main.asyncAfter(deadline: when) {
+            self.clickable()
+        }
+        
     }
     
     @IBAction func saveButton(_ sender: Any ) {
         useSaveButton()
     }
-    
+    */
+ */
 }
 

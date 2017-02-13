@@ -7,16 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1712D779A3F3E23C7EE12BCA /* Pods_HBEnterDataTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DABF235993A00F4EFDCEE4D /* Pods_HBEnterDataTests.framework */; };
+		2D4AAD89F35A043DB1A04F3D /* Pods_HBEnterData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1631C783BE481C6513DAC3AA /* Pods_HBEnterData.framework */; };
 		3F41A2621E4B62CA00AE9354 /* stepCountDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F41A2611E4B62CA00AE9354 /* stepCountDetails.swift */; };
 		3F9D2D3F1E492285007FA673 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D2D3E1E492285007FA673 /* AppDelegate.swift */; };
 		3F9D2D411E492285007FA673 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D2D401E492285007FA673 /* ViewController.swift */; };
-		3F9D2D441E492285007FA673 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F9D2D421E492285007FA673 /* Main.storyboard */; };
 		3F9D2D461E492285007FA673 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F9D2D451E492285007FA673 /* Assets.xcassets */; };
 		3F9D2D491E492285007FA673 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F9D2D471E492285007FA673 /* LaunchScreen.storyboard */; };
 		3F9D2D541E492285007FA673 /* HBEnterDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D2D531E492285007FA673 /* HBEnterDataTests.swift */; };
 		3F9D2D5F1E492285007FA673 /* HBEnterDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D2D5E1E492285007FA673 /* HBEnterDataUITests.swift */; };
 		3F9D2D6E1E4922B4007FA673 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F9D2D6D1E4922B4007FA673 /* HealthKit.framework */; };
 		3F9D2D711E4924DA007FA673 /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D2D701E4924DA007FA673 /* HealthManager.swift */; };
+		3FF7DB891E5230CE00483D69 /* gif+swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF7DB881E5230CE00483D69 /* gif+swift.swift */; };
+		3FF7DB8F1E523AA800483D69 /* leftshark.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3FF7DB8E1E523AA800483D69 /* leftshark.gif */; };
+		3FF7DB931E52515C00483D69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF7DB911E52515C00483D69 /* Main.storyboard */; };
+		3FF7DB951E5252D400483D69 /* bloodPressureDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF7DB941E5252D400483D69 /* bloodPressureDetails.swift */; };
+		BAB4AAB79B59BC7012B08D41 /* Pods_HBEnterDataUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2474ED395B93290D0194507 /* Pods_HBEnterDataUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07B09E8CA9BC0DE143F1F18C /* Pods-HBEnterDataTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBEnterDataTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HBEnterDataTests/Pods-HBEnterDataTests.release.xcconfig"; sourceTree = "<group>"; };
+		1098E10726FD60B07282028A /* Pods-HBEnterData.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBEnterData.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HBEnterData/Pods-HBEnterData.debug.xcconfig"; sourceTree = "<group>"; };
+		1631C783BE481C6513DAC3AA /* Pods_HBEnterData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HBEnterData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		395350D4CD8208E6C7FF8A61 /* Pods-HBEnterDataUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBEnterDataUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HBEnterDataUITests/Pods-HBEnterDataUITests.release.xcconfig"; sourceTree = "<group>"; };
+		39C752713C5CC4B99AAB1726 /* Pods-HBEnterData.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBEnterData.release.xcconfig"; path = "Pods/Target Support Files/Pods-HBEnterData/Pods-HBEnterData.release.xcconfig"; sourceTree = "<group>"; };
 		3F41A2611E4B62CA00AE9354 /* stepCountDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = stepCountDetails.swift; sourceTree = "<group>"; };
 		3F9D2D3B1E492285007FA673 /* HBEnterData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HBEnterData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F9D2D3E1E492285007FA673 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F9D2D401E492285007FA673 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3F9D2D431E492285007FA673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F9D2D451E492285007FA673 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F9D2D481E492285007FA673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F9D2D4A1E492285007FA673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +64,14 @@
 		3F9D2D6D1E4922B4007FA673 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		3F9D2D6F1E4922B4007FA673 /* HBEnterData.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HBEnterData.entitlements; sourceTree = "<group>"; };
 		3F9D2D701E4924DA007FA673 /* HealthManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthManager.swift; sourceTree = "<group>"; };
+		3FF7DB881E5230CE00483D69 /* gif+swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "gif+swift.swift"; sourceTree = "<group>"; };
+		3FF7DB8E1E523AA800483D69 /* leftshark.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = leftshark.gif; path = Assets.xcassets/LOADING.imageset/leftshark.gif; sourceTree = "<group>"; };
+		3FF7DB921E52515C00483D69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FF7DB941E5252D400483D69 /* bloodPressureDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bloodPressureDetails.swift; sourceTree = "<group>"; };
+		7A964239C7796D08EF694FEA /* Pods-HBEnterDataTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBEnterDataTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HBEnterDataTests/Pods-HBEnterDataTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7DABF235993A00F4EFDCEE4D /* Pods_HBEnterDataTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HBEnterDataTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA9D69CD2BE9993579954B5C /* Pods-HBEnterDataUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBEnterDataUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HBEnterDataUITests/Pods-HBEnterDataUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F2474ED395B93290D0194507 /* Pods_HBEnterDataUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HBEnterDataUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +80,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F9D2D6E1E4922B4007FA673 /* HealthKit.framework in Frameworks */,
+				2D4AAD89F35A043DB1A04F3D /* Pods_HBEnterData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1712D779A3F3E23C7EE12BCA /* Pods_HBEnterDataTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAB4AAB79B59BC7012B08D41 /* Pods_HBEnterDataUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +111,7 @@
 				3F9D2D5D1E492285007FA673 /* HBEnterDataUITests */,
 				3F9D2D3C1E492285007FA673 /* Products */,
 				3F9D2D6C1E4922B4007FA673 /* Frameworks */,
+				ADF100F00CD2D57F6EA572B4 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,9 +133,12 @@
 				3F9D2D401E492285007FA673 /* ViewController.swift */,
 				3F9D2D701E4924DA007FA673 /* HealthManager.swift */,
 				3F41A2611E4B62CA00AE9354 /* stepCountDetails.swift */,
-				3F9D2D421E492285007FA673 /* Main.storyboard */,
+				3FF7DB941E5252D400483D69 /* bloodPressureDetails.swift */,
+				3FF7DB911E52515C00483D69 /* Main.storyboard */,
+				3FF7DB881E5230CE00483D69 /* gif+swift.swift */,
 				3F9D2D451E492285007FA673 /* Assets.xcassets */,
 				3F9D2D471E492285007FA673 /* LaunchScreen.storyboard */,
+				3FF7DB8E1E523AA800483D69 /* leftshark.gif */,
 				3F9D2D4A1E492285007FA673 /* Info.plist */,
 			);
 			path = HBEnterData;
@@ -141,8 +166,24 @@
 			isa = PBXGroup;
 			children = (
 				3F9D2D6D1E4922B4007FA673 /* HealthKit.framework */,
+				1631C783BE481C6513DAC3AA /* Pods_HBEnterData.framework */,
+				7DABF235993A00F4EFDCEE4D /* Pods_HBEnterDataTests.framework */,
+				F2474ED395B93290D0194507 /* Pods_HBEnterDataUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADF100F00CD2D57F6EA572B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1098E10726FD60B07282028A /* Pods-HBEnterData.debug.xcconfig */,
+				39C752713C5CC4B99AAB1726 /* Pods-HBEnterData.release.xcconfig */,
+				7A964239C7796D08EF694FEA /* Pods-HBEnterDataTests.debug.xcconfig */,
+				07B09E8CA9BC0DE143F1F18C /* Pods-HBEnterDataTests.release.xcconfig */,
+				BA9D69CD2BE9993579954B5C /* Pods-HBEnterDataUITests.debug.xcconfig */,
+				395350D4CD8208E6C7FF8A61 /* Pods-HBEnterDataUITests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,9 +193,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F9D2D631E492285007FA673 /* Build configuration list for PBXNativeTarget "HBEnterData" */;
 			buildPhases = (
+				BC0C5673795B69DBDB965F46 /* [CP] Check Pods Manifest.lock */,
 				3F9D2D371E492285007FA673 /* Sources */,
 				3F9D2D381E492285007FA673 /* Frameworks */,
 				3F9D2D391E492285007FA673 /* Resources */,
+				2E7A0B80B663C3BEF4B40C50 /* [CP] Embed Pods Frameworks */,
+				D845C1D3055E2D9061B79095 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -169,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F9D2D661E492285007FA673 /* Build configuration list for PBXNativeTarget "HBEnterDataTests" */;
 			buildPhases = (
+				5EB7AF154DAFC836FD009D48 /* [CP] Check Pods Manifest.lock */,
 				3F9D2D4B1E492285007FA673 /* Sources */,
 				3F9D2D4C1E492285007FA673 /* Frameworks */,
 				3F9D2D4D1E492285007FA673 /* Resources */,
+				3F7038EC09B9D7C2A095C373 /* [CP] Embed Pods Frameworks */,
+				02BA95F691301767EE7C3C81 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -187,9 +234,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F9D2D691E492285007FA673 /* Build configuration list for PBXNativeTarget "HBEnterDataUITests" */;
 			buildPhases = (
+				FB38482F0BF32536369917C3 /* [CP] Check Pods Manifest.lock */,
 				3F9D2D561E492285007FA673 /* Sources */,
 				3F9D2D571E492285007FA673 /* Frameworks */,
 				3F9D2D581E492285007FA673 /* Resources */,
+				18505965A4A2A23908B1B871 /* [CP] Embed Pods Frameworks */,
+				8749574338D323BA5D530B53 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -262,7 +312,8 @@
 			files = (
 				3F9D2D491E492285007FA673 /* LaunchScreen.storyboard in Resources */,
 				3F9D2D461E492285007FA673 /* Assets.xcassets in Resources */,
-				3F9D2D441E492285007FA673 /* Main.storyboard in Resources */,
+				3FF7DB8F1E523AA800483D69 /* leftshark.gif in Resources */,
+				3FF7DB931E52515C00483D69 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +333,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02BA95F691301767EE7C3C81 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HBEnterDataTests/Pods-HBEnterDataTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		18505965A4A2A23908B1B871 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HBEnterDataUITests/Pods-HBEnterDataUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E7A0B80B663C3BEF4B40C50 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HBEnterData/Pods-HBEnterData-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F7038EC09B9D7C2A095C373 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HBEnterDataTests/Pods-HBEnterDataTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EB7AF154DAFC836FD009D48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8749574338D323BA5D530B53 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HBEnterDataUITests/Pods-HBEnterDataUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC0C5673795B69DBDB965F46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D845C1D3055E2D9061B79095 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HBEnterData/Pods-HBEnterData-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB38482F0BF32536369917C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3F9D2D371E492285007FA673 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -291,6 +480,8 @@
 				3F9D2D411E492285007FA673 /* ViewController.swift in Sources */,
 				3F9D2D711E4924DA007FA673 /* HealthManager.swift in Sources */,
 				3F9D2D3F1E492285007FA673 /* AppDelegate.swift in Sources */,
+				3FF7DB951E5252D400483D69 /* bloodPressureDetails.swift in Sources */,
+				3FF7DB891E5230CE00483D69 /* gif+swift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,20 +517,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3F9D2D421E492285007FA673 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3F9D2D431E492285007FA673 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3F9D2D471E492285007FA673 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				3F9D2D481E492285007FA673 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3FF7DB911E52515C00483D69 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FF7DB921E52515C00483D69 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -440,6 +631,7 @@
 		};
 		3F9D2D641E492285007FA673 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1098E10726FD60B07282028A /* Pods-HBEnterData.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = HBEnterData/HBEnterData.entitlements;
@@ -454,6 +646,7 @@
 		};
 		3F9D2D651E492285007FA673 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39C752713C5CC4B99AAB1726 /* Pods-HBEnterData.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = HBEnterData/HBEnterData.entitlements;
@@ -468,6 +661,7 @@
 		};
 		3F9D2D671E492285007FA673 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A964239C7796D08EF694FEA /* Pods-HBEnterDataTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -483,6 +677,7 @@
 		};
 		3F9D2D681E492285007FA673 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07B09E8CA9BC0DE143F1F18C /* Pods-HBEnterDataTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -498,6 +693,7 @@
 		};
 		3F9D2D6A1E492285007FA673 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA9D69CD2BE9993579954B5C /* Pods-HBEnterDataUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 9SNZ8X3UFW;
@@ -512,6 +708,7 @@
 		};
 		3F9D2D6B1E492285007FA673 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 395350D4CD8208E6C7FF8A61 /* Pods-HBEnterDataUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 9SNZ8X3UFW;

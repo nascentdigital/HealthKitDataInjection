@@ -41,22 +41,6 @@ class HealthManager: UIViewController {
     }
     }
 
-    //ACTIVITY INDICATOR STUFF
-    var activityIndicator:UIActivityIndicatorView = UIActivityIndicatorView()
-    
-    func start() {
-        activityIndicator.center = self.view.center
-        activityIndicator.hidesWhenStopped = true
-        activityIndicator.activityIndicatorViewStyle = UIActivityIndicatorViewStyle.gray
-        view.addSubview(activityIndicator)
-        
-        activityIndicator.startAnimating()
-    }
-    
-    func stop() {
-        activityIndicator.stopAnimating()
-    }
-    ///////////////////////////////////////////////
 
     func saveSteps(stepsRecorded: Int, date: NSDate) {
         //get date
@@ -69,7 +53,6 @@ class HealthManager: UIViewController {
         let stepsQuantity = HKQuantity(unit: units, doubleValue: Double(stepsRecorded))
         
         let stepsQuantitySample = HKQuantitySample(type: sampleType!, quantity: stepsQuantity, start: date as Date, end: date as Date)
-        
         healthKitStore.save(stepsQuantitySample, withCompletion: { (Bool, NSError)-> Void in
             if (NSError != nil) {
                 print(NSError!)
@@ -78,6 +61,7 @@ class HealthManager: UIViewController {
                 print("recorded:  \(date) with \(stepsRecorded)")
         
             }
+
         })
         
     }

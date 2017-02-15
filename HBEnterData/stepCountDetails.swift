@@ -22,8 +22,8 @@ class stepCountDetails: UIViewController {
     @IBOutlet weak var mostSteps: UITextField!
     @IBOutlet weak var leastDateRange: UIDatePicker!
     @IBOutlet weak var mostDateRange: UIDatePicker!
-    @IBOutlet weak var loaderBack: UIImageView!
     @IBOutlet weak var loader: UIImageView!
+    @IBOutlet weak var loaderBack: UIImageView!
     @IBOutlet weak var loadingText: UITextField!
     @IBOutlet weak var submit: UIBarButtonItem!
 
@@ -32,9 +32,12 @@ class stepCountDetails: UIViewController {
         super.viewDidLoad()
         loader.loadGif(name: "leftshark")
         loader.isHidden = true
-        loaderBack.alpha = 0.5
+        loaderBack.alpha = 0.8
         loaderBack.isHidden = true
         loadingText.isHidden = true
+        
+        mostDateRange.maximumDate = Calendar.current.date(byAdding: .year, value: 10, to: Date())
+
     }
     
     //calculating days between
@@ -97,10 +100,20 @@ class stepCountDetails: UIViewController {
         mostSteps.isEnabled = true
         loadingText.isHidden = true
         navigationItem.hidesBackButton = false
+        leastSteps.text="0"
+        mostSteps.text="0"
+        leastDateRange.date = current
+        mostDateRange.date = current
     }
     func useSaveButton(){
-            let leastStepCount = Int(leastSteps.text!)
-            let mostStepCount = Int(mostSteps.text!)
+            var leastStepCount = Int(leastSteps.text!)
+            if (leastSteps.text == "") {
+                leastStepCount = 0
+            }
+            var mostStepCount = Int(mostSteps.text!)
+            if (mostSteps.text == "") {
+                mostStepCount = 0
+            }
             let startDate = leastDateRange.date
             let endDate = mostDateRange.date
             createData(leastStep: leastStepCount!, mostStep: mostStepCount!, start: startDate, end: endDate)

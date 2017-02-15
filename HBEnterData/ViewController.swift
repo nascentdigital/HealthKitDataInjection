@@ -20,9 +20,8 @@ class ViewController: UITableViewController {
         super.viewDidLoad()
         self.tableView.contentInset = UIEdgeInsetsMake(20, 0, 0, 0);
         self.navigationController!.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName : UIColor.white]
-        options = ["Step Count", "Blood Pressure"]
-        identities = ["A","B"]
-
+        options = ["Step Count", "Blood Pressure", "Weight"]
+        identities = ["A","B", "C"]
 
         func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int){
             view.tintColor = UIColor.red

@@ -134,6 +134,7 @@ class bloodPressureDetails: UIViewController {
         }
         let startDate = leastDateRange.date
         let endDate = mostDateRange.date
+        unclickable()
         createData(leastSystolic: leastSystolicCount!, mostSystolic: mostSystolicCount!, leastDystolic: leastDystolicCount!, mostDystolic: mostDystolicCount!, start: startDate, end: endDate)
         unclickable()
         for i in 0 ..< self.systolicArray.count  {
@@ -142,8 +143,11 @@ class bloodPressureDetails: UIViewController {
         
         var when = DispatchTime.now() + 3
         
-        if (self.systolicArray.count > 365) {
+        if (self.systolicArray.count >= 365 && self.systolicArray.count < 1825) {
             when = DispatchTime.now() + 5
+        }
+        else if (self.systolicArray.count <= 1825 && self.systolicArray.count > 365) {
+            when = DispatchTime.now() + 10
         }
         
         DispatchQueue.main.asyncAfter(deadline: when) {

@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -23,8 +22,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LEFT SHARK" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t3N-JR-OY5">
-                                <rect key="frame" x="84" y="313" width="209" height="42"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <rect key="frame" x="54" y="307" width="267" height="54"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="45"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -35,28 +34,27 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="THE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ENo-go-Rbj">
-                                <rect key="frame" x="163" y="292" width="49" height="30"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
-                                <color key="textColor" red="0.96969527010000001" green="0.75999867919999997" blue="0.19394013290000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EMULATOR POPULATOR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hAH-Vn-Ar0">
+                                <rect key="frame" x="3" y="358" width="368" height="39"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
+                                <color key="textColor" red="0.96969527006149292" green="0.75999867916107178" blue="0.19394013285636902" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EMULATOR POPULATOR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hAH-Vn-Ar0">
-                                <rect key="frame" x="58" y="349" width="260" height="27"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
-                                <color key="textColor" red="0.96969527006149292" green="0.75999867916107178" blue="0.19394013285636902" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="THE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ENo-go-Rbj">
+                                <rect key="frame" x="153" y="268" width="68" height="42"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <color key="textColor" red="0.96969527010000001" green="0.75999867919999997" blue="0.19394013290000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.54831111431121826" green="0.7004164457321167" blue="0.82328861951828003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="hAH-Vn-Ar0" firstAttribute="top" secondItem="ENo-go-Rbj" secondAttribute="bottom" constant="27" id="FCw-ye-MYh"/>
-                            <constraint firstItem="t3N-JR-OY5" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="XPv-L9-q8m"/>
-                            <constraint firstItem="ENo-go-Rbj" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="kjO-gF-A2h"/>
-                            <constraint firstItem="hAH-Vn-Ar0" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="42" id="kmc-Ss-TNg"/>
-                            <constraint firstItem="ENo-go-Rbj" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="272" id="saq-WM-rln"/>
-                            <constraint firstItem="t3N-JR-OY5" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" constant="1" id="xzH-Tm-Z6R"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="hAH-Vn-Ar0" secondAttribute="trailing" constant="41" id="yXl-ux-h1g"/>
+                            <constraint firstItem="hAH-Vn-Ar0" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="GqH-88-dLv"/>
+                            <constraint firstItem="t3N-JR-OY5" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="V80-Tx-3xQ"/>
+                            <constraint firstItem="hAH-Vn-Ar0" firstAttribute="top" secondItem="ENo-go-Rbj" secondAttribute="bottom" constant="48" id="VUR-Qy-2YN"/>
+                            <constraint firstItem="t3N-JR-OY5" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="fwk-CQ-UTB"/>
+                            <constraint firstItem="ENo-go-Rbj" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="v9b-I7-3na"/>
+                            <constraint firstItem="ENo-go-Rbj" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="248" id="vSw-kQ-E9L"/>
                         </constraints>
                     </view>
                 </viewController>

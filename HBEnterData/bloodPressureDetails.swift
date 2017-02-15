@@ -25,9 +25,9 @@ class bloodPressureDetails: UIViewController {
     @IBOutlet weak var mostDystolic: UITextField!
     @IBOutlet weak var leastDateRange: UIDatePicker!
     @IBOutlet weak var mostDateRange: UIDatePicker!
-    @IBOutlet weak var loaderBack: UIImageView!
-    @IBOutlet weak var loader: UIImageView!
     @IBOutlet weak var loadingText: UITextField!
+    @IBOutlet weak var loader: UIImageView!
+    @IBOutlet weak var loaderBack: UIImageView!
     @IBOutlet weak var submit: UIBarButtonItem!
     
     

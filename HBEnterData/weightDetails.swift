@@ -78,21 +78,6 @@ class weightDetails: UIViewController {
     
     //ACTIVITY INDICATOR STUFF
     
-    var activityIndicator:UIActivityIndicatorView = UIActivityIndicatorView()
-    
-    func start() {
-        activityIndicator.center = self.view.center
-        activityIndicator.hidesWhenStopped = true
-        activityIndicator.activityIndicatorViewStyle = UIActivityIndicatorViewStyle.gray
-        view.addSubview(activityIndicator)
-        
-        activityIndicator.startAnimating()
-    }
-    
-    func stop() {
-        activityIndicator.stopAnimating()
-    }
-    
     func unclickable() {
         submit.isEnabled = false
         leastDateRange.isEnabled = false

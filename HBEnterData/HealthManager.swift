@@ -14,15 +14,15 @@ class HealthManager: UIViewController {
     
     open static let sharedInstance = HealthManager()
 
-    //creating an instance of HKHealthStore to access
+    //creating an instance of HKHealthStore to access later
     let healthKitStore = HKHealthStore()
     
-    //checking for availability
+    //checking for availability of the health kit
     func isHealthKitAvailable() -> Bool {
         return HKHealthStore.isHealthDataAvailable()
     }
     
-    //requesting authorization
+    //requesting authorization from user
     open func requestHKAuthorization( _ completion: @escaping (Bool, NSError?) -> Void) {
        
     //setting types to write to store
@@ -30,8 +30,10 @@ class HealthManager: UIViewController {
     shareTypes.insert(HKObjectType.quantityType(forIdentifier: HKQuantityTypeIdentifier.bloodPressureSystolic)!)
     shareTypes.insert(HKObjectType.quantityType(forIdentifier: HKQuantityTypeIdentifier.bloodPressureDiastolic)!)
     shareTypes.insert(HKObjectType.quantityType(forIdentifier: HKQuantityTypeIdentifier.bodyMass)!)
-    let readTypes: Set<HKObjectType> = Set([HKObjectType.workoutType()])
+    let readTypes: Set<HKObjectType> = Set([HKObjectType.workoutType()]) // just here to fill out below
     
+   
+    //requesting authorization from the user
     healthKitStore.requestAuthorization(toShare: shareTypes, read: readTypes) { (success, error) -> Void in
     if success {
     print("success")
@@ -45,6 +47,7 @@ class HealthManager: UIViewController {
     }
 
 
+    //saving STEPCOUNT to healthkit
     func saveSteps(stepsRecorded: Int, date: NSDate) {
         //get date
         //set sample type
@@ -55,6 +58,7 @@ class HealthManager: UIViewController {
         //hardcode quantity for now:
         let stepsQuantity = HKQuantity(unit: units, doubleValue: Double(stepsRecorded))
         
+        //setting up the sample to be written to da store
         let stepsQuantitySample = HKQuantitySample(type: sampleType!, quantity: stepsQuantity, start: date as Date, end: date as Date)
         healthKitStore.save(stepsQuantitySample, withCompletion: { (Bool, NSError)-> Void in
             if (NSError != nil) {
@@ -69,6 +73,7 @@ class HealthManager: UIViewController {
         
     }
 
+    //saving BLOOD PRESSURE to healthkit
     func saveStepsBlood(systolicRecorded: Int, dystolicRecorded: Int, date: NSDate) {
         //get date
         //set sample type
@@ -100,6 +105,8 @@ class HealthManager: UIViewController {
         })
         
     }
+    
+    //saving WEIGHT to healthkit
     func saveWeight(weightRecorded: Int, date: NSDate) {
         //get weight
         //set sample type

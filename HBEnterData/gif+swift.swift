@@ -5,7 +5,7 @@
 //  Created by Arne Bahlo on 07.06.14.
 //  Copyright (c) 2014 Arne Bahlo. All rights reserved.
 //
-//FROM UIIMAGE+GIF.SWIFT POD WHICH IS CURRENTLY NOT WORKING
+//FROM UIIMAGE+GIF.SWIFT POD WHICH IS CURRENTLY NOT WORKING **********************************
 
 import UIKit
 import ImageIO

@@ -18,19 +18,20 @@ class ViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //setting up table view
         self.tableView.contentInset = UIEdgeInsetsMake(20, 0, 0, 0);
         self.navigationController!.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName : UIColor.white]
         options = ["Step Count", "Blood Pressure", "Weight"]
-        identities = ["A","B", "C"]
-
+        identities = ["A","B","C"]
         func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int){
-            view.tintColor = UIColor.red
             let header = view as! UITableViewHeaderFooterView
             header.textLabel?.textColor = UIColor.white
         }
         
-        
-        HealthManager.sharedInstance.requestHKAuthorization { (true, error) in}}
+        //get authorization for health data from user
+        HealthManager.sharedInstance.requestHKAuthorization { (true, error) in}
+    }
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1

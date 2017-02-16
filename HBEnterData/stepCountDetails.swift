@@ -61,24 +61,8 @@ class stepCountDetails: UIViewController {
         }
     }
     
-    //ACTIVITY INDICATOR STUFF
-
-    var activityIndicator:UIActivityIndicatorView = UIActivityIndicatorView()
-    
-    func start() {
-        activityIndicator.center = self.view.center
-        activityIndicator.hidesWhenStopped = true
-        activityIndicator.activityIndicatorViewStyle = UIActivityIndicatorViewStyle.gray
-        view.addSubview(activityIndicator)
-        
-        activityIndicator.startAnimating()
-    }
-    
-    func stop() {
-        activityIndicator.stopAnimating()
-    }
-    
-    func unclickable() {
+        //ACTIVITY INDICATOR STUFF
+        func unclickable() {
         submit.isEnabled = false
         leastDateRange.isEnabled = false
         mostDateRange.isEnabled = false
@@ -105,6 +89,7 @@ class stepCountDetails: UIViewController {
         leastDateRange.date = current
         mostDateRange.date = current
     }
+    
     func useSaveButton(){
             var leastStepCount = Int(leastSteps.text!)
             if (leastSteps.text == "") {

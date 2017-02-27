@@ -30,7 +30,7 @@ class HealthManager: UIViewController {
     shareTypes.insert(HKObjectType.quantityType(forIdentifier: HKQuantityTypeIdentifier.bloodPressureSystolic)!)
     shareTypes.insert(HKObjectType.quantityType(forIdentifier: HKQuantityTypeIdentifier.bloodPressureDiastolic)!)
     shareTypes.insert(HKObjectType.quantityType(forIdentifier: HKQuantityTypeIdentifier.bodyMass)!)
-    let readTypes: Set<HKObjectType> = Set([HKObjectType.workoutType()]) // just here to fill out below
+    let readTypes = Set(arrayLiteral: HKObjectType.quantityType(forIdentifier: HKQuantityTypeIdentifier.stepCount)!)
     
    
     //requesting authorization from the user
@@ -130,4 +130,29 @@ class HealthManager: UIViewController {
         })
         
     }
+    
+    func getData(completion: @escaping (_ dataRetrieved: Double) -> Void) {
+        
+        let dataType  = HKQuantityType.quantityType(forIdentifier: HKQuantityTypeIdentifier.stepCount)! //change to data type
+        let dataUnit  = HKUnit.count() //change to any data unit
+        var components = DateComponents()
+        components.day = 1
+        let startDate = NSCalendar.current.startOfDay(for: NSDate() as Date)
+        let endDate = NSCalendar.current.date(byAdding: components, to: startDate)
+        let predicate = HKQuery.predicateForSamples(withStart: startDate, end: endDate, options: [])
+
+        let sumOption = HKStatisticsOptions.cumulativeSum
+        let query = HKStatisticsQuery(quantityType: dataType, quantitySamplePredicate: predicate,
+                                                   options: sumOption)
+        { (query, result, error) in
+            if let sumQuantity = result?.sumQuantity() {
+                
+                let value = Int(sumQuantity.doubleValue(for: dataUnit)) //not always double?
+                print(value)
+            }
+        }
+        
+        healthKitStore.execute(query)
+    }
+
 }

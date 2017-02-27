@@ -50,12 +50,12 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N0r-Bv-fEd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="178.40000000000001" y="93.103448275862078"/>
+            <point key="canvasLocation" x="225" y="93"/>
         </scene>
         <!--Step Count-->
         <scene sceneID="3gD-3U-QgW">
             <objects>
-                <viewController storyboardIdentifier="A" useStoryboardIdentifierAsRestorationIdentifier="YES" id="HhL-Wf-Gec" customClass="stepCountDetails" customModule="HBEnterData" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="A" useStoryboardIdentifierAsRestorationIdentifier="YES" id="HhL-Wf-Gec" customClass="StepCountController" customModule="HBEnterData" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bxH-zq-Ko6"/>
                         <viewControllerLayoutGuide type="bottom" id="1PE-j6-2cK"/>
@@ -219,14 +219,14 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="leastDateRange" destination="0n4-2L-pqX" id="pvJ-e1-Y3i"/>
+                        <outlet property="leastDateRange" destination="0n4-2L-pqX" id="hpx-Ss-hoo"/>
                         <outlet property="leastSteps" destination="vtk-XV-fD0" id="Wvo-2T-yu9"/>
-                        <outlet property="loader" destination="mbO-o4-0eF" id="u27-0x-nki"/>
-                        <outlet property="loaderBack" destination="AD3-Ym-srP" id="cvD-1I-RLv"/>
+                        <outlet property="loader" destination="mbO-o4-0eF" id="h85-mI-z77"/>
+                        <outlet property="loaderBack" destination="AD3-Ym-srP" id="Cq5-4B-e9M"/>
                         <outlet property="loadingText" destination="scu-3g-B6q" id="MNt-fD-Hyi"/>
-                        <outlet property="mostDateRange" destination="gXb-KA-oKX" id="L0r-WQ-3xF"/>
+                        <outlet property="mostDateRange" destination="gXb-KA-oKX" id="OxZ-Fq-teP"/>
                         <outlet property="mostSteps" destination="bil-rW-Xix" id="aa2-Fl-khL"/>
-                        <outlet property="submit" destination="epE-0J-JMS" id="TtL-W2-dTB"/>
+                        <outlet property="submit" destination="epE-0J-JMS" id="Kqk-Yu-7zu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qze-Lg-GvD" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -252,12 +252,12 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nZU-FU-iga" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-760.79999999999995" y="93.103448275862078"/>
+            <point key="canvasLocation" x="-786" y="92"/>
         </scene>
         <!--Blood Pressure-->
         <scene sceneID="w94-EE-Gjh">
             <objects>
-                <viewController storyboardIdentifier="B" id="P42-s6-uto" customClass="bloodPressureDetails" customModule="HBEnterData" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="B" id="P42-s6-uto" customClass="BloodPressureController" customModule="HBEnterData" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="X8N-TY-oyF"/>
                         <viewControllerLayoutGuide type="bottom" id="LyU-G5-gzr"/>
@@ -467,7 +467,7 @@
         <!--Weight-->
         <scene sceneID="6Lm-xO-Lrx">
             <objects>
-                <viewController storyboardIdentifier="C" id="Lfl-EA-cmv" customClass="weightDetails" customModule="HBEnterData" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="C" id="Lfl-EA-cmv" customClass="WeightController" customModule="HBEnterData" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fCs-pW-To9"/>
                         <viewControllerLayoutGuide type="bottom" id="Bjt-p2-Vxv"/>

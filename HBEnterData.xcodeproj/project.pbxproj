@@ -9,7 +9,8 @@
 /* Begin PBXBuildFile section */
 		1712D779A3F3E23C7EE12BCA /* Pods_HBEnterDataTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DABF235993A00F4EFDCEE4D /* Pods_HBEnterDataTests.framework */; };
 		2D4AAD89F35A043DB1A04F3D /* Pods_HBEnterData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1631C783BE481C6513DAC3AA /* Pods_HBEnterData.framework */; };
-		3F41A2621E4B62CA00AE9354 /* stepCountDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F41A2611E4B62CA00AE9354 /* stepCountDetails.swift */; };
+		3F3F58C71E64BC1D009C1AF6 /* BaseClassController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3F58C61E64BC1D009C1AF6 /* BaseClassController.swift */; };
+		3F41A2621E4B62CA00AE9354 /* StepCountController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F41A2611E4B62CA00AE9354 /* StepCountController.swift */; };
 		3F9D2D3F1E492285007FA673 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D2D3E1E492285007FA673 /* AppDelegate.swift */; };
 		3F9D2D411E492285007FA673 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D2D401E492285007FA673 /* ViewController.swift */; };
 		3F9D2D461E492285007FA673 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F9D2D451E492285007FA673 /* Assets.xcassets */; };
@@ -21,8 +22,8 @@
 		3FF7DB891E5230CE00483D69 /* gif+swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF7DB881E5230CE00483D69 /* gif+swift.swift */; };
 		3FF7DB8F1E523AA800483D69 /* leftshark.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3FF7DB8E1E523AA800483D69 /* leftshark.gif */; };
 		3FF7DB931E52515C00483D69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF7DB911E52515C00483D69 /* Main.storyboard */; };
-		3FF7DB951E5252D400483D69 /* bloodPressureDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF7DB941E5252D400483D69 /* bloodPressureDetails.swift */; };
-		3FF7DB971E535FAA00483D69 /* weightDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF7DB961E535FAA00483D69 /* weightDetails.swift */; };
+		3FF7DB951E5252D400483D69 /* BloodPressureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF7DB941E5252D400483D69 /* BloodPressureController.swift */; };
+		3FF7DB971E535FAA00483D69 /* WeightController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF7DB961E535FAA00483D69 /* WeightController.swift */; };
 		BAB4AAB79B59BC7012B08D41 /* Pods_HBEnterDataUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2474ED395B93290D0194507 /* Pods_HBEnterDataUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,7 +50,8 @@
 		1631C783BE481C6513DAC3AA /* Pods_HBEnterData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HBEnterData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		395350D4CD8208E6C7FF8A61 /* Pods-HBEnterDataUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBEnterDataUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HBEnterDataUITests/Pods-HBEnterDataUITests.release.xcconfig"; sourceTree = "<group>"; };
 		39C752713C5CC4B99AAB1726 /* Pods-HBEnterData.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBEnterData.release.xcconfig"; path = "Pods/Target Support Files/Pods-HBEnterData/Pods-HBEnterData.release.xcconfig"; sourceTree = "<group>"; };
-		3F41A2611E4B62CA00AE9354 /* stepCountDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = stepCountDetails.swift; sourceTree = "<group>"; };
+		3F3F58C61E64BC1D009C1AF6 /* BaseClassController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseClassController.swift; sourceTree = "<group>"; };
+		3F41A2611E4B62CA00AE9354 /* StepCountController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepCountController.swift; sourceTree = "<group>"; };
 		3F9D2D3B1E492285007FA673 /* HBEnterData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HBEnterData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F9D2D3E1E492285007FA673 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F9D2D401E492285007FA673 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -68,8 +70,8 @@
 		3FF7DB881E5230CE00483D69 /* gif+swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "gif+swift.swift"; sourceTree = "<group>"; };
 		3FF7DB8E1E523AA800483D69 /* leftshark.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = leftshark.gif; path = Assets.xcassets/LOADING.imageset/leftshark.gif; sourceTree = "<group>"; };
 		3FF7DB921E52515C00483D69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3FF7DB941E5252D400483D69 /* bloodPressureDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bloodPressureDetails.swift; sourceTree = "<group>"; };
-		3FF7DB961E535FAA00483D69 /* weightDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = weightDetails.swift; sourceTree = "<group>"; };
+		3FF7DB941E5252D400483D69 /* BloodPressureController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BloodPressureController.swift; sourceTree = "<group>"; };
+		3FF7DB961E535FAA00483D69 /* WeightController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeightController.swift; sourceTree = "<group>"; };
 		7A964239C7796D08EF694FEA /* Pods-HBEnterDataTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBEnterDataTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HBEnterDataTests/Pods-HBEnterDataTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7DABF235993A00F4EFDCEE4D /* Pods_HBEnterDataTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HBEnterDataTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA9D69CD2BE9993579954B5C /* Pods-HBEnterDataUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBEnterDataUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HBEnterDataUITests/Pods-HBEnterDataUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -105,6 +107,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F3F58C21E64BB21009C1AF6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3F9D2D401E492285007FA673 /* ViewController.swift */,
+				3F3F58C61E64BC1D009C1AF6 /* BaseClassController.swift */,
+				3F41A2611E4B62CA00AE9354 /* StepCountController.swift */,
+				3FF7DB941E5252D400483D69 /* BloodPressureController.swift */,
+				3FF7DB961E535FAA00483D69 /* WeightController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		3F3F58C31E64BB76009C1AF6 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				3F9D2D701E4924DA007FA673 /* HealthManager.swift */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		3F3F58C41E64BBBC009C1AF6 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				3FF7DB881E5230CE00483D69 /* gif+swift.swift */,
+				3FF7DB8E1E523AA800483D69 /* leftshark.gif */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		3F3F58C51E64BBC6009C1AF6 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				3FF7DB911E52515C00483D69 /* Main.storyboard */,
+				3F9D2D471E492285007FA673 /* LaunchScreen.storyboard */,
+			);
+			name = StoryBoards;
+			sourceTree = "<group>";
+		};
 		3F9D2D321E492285007FA673 = {
 			isa = PBXGroup;
 			children = (
@@ -131,18 +171,13 @@
 			isa = PBXGroup;
 			children = (
 				3F9D2D6F1E4922B4007FA673 /* HBEnterData.entitlements */,
-				3F9D2D3E1E492285007FA673 /* AppDelegate.swift */,
-				3F9D2D401E492285007FA673 /* ViewController.swift */,
-				3F9D2D701E4924DA007FA673 /* HealthManager.swift */,
-				3F41A2611E4B62CA00AE9354 /* stepCountDetails.swift */,
-				3FF7DB941E5252D400483D69 /* bloodPressureDetails.swift */,
-				3FF7DB961E535FAA00483D69 /* weightDetails.swift */,
-				3FF7DB911E52515C00483D69 /* Main.storyboard */,
-				3FF7DB881E5230CE00483D69 /* gif+swift.swift */,
 				3F9D2D451E492285007FA673 /* Assets.xcassets */,
-				3F9D2D471E492285007FA673 /* LaunchScreen.storyboard */,
-				3FF7DB8E1E523AA800483D69 /* leftshark.gif */,
+				3F9D2D3E1E492285007FA673 /* AppDelegate.swift */,
 				3F9D2D4A1E492285007FA673 /* Info.plist */,
+				3F3F58C21E64BB21009C1AF6 /* Controllers */,
+				3F3F58C31E64BB76009C1AF6 /* Managers */,
+				3F3F58C51E64BBC6009C1AF6 /* StoryBoards */,
+				3F3F58C41E64BBBC009C1AF6 /* Assets */,
 			);
 			path = HBEnterData;
 			sourceTree = "<group>";
@@ -479,13 +514,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F41A2621E4B62CA00AE9354 /* stepCountDetails.swift in Sources */,
+				3F41A2621E4B62CA00AE9354 /* StepCountController.swift in Sources */,
+				3F3F58C71E64BC1D009C1AF6 /* BaseClassController.swift in Sources */,
 				3F9D2D411E492285007FA673 /* ViewController.swift in Sources */,
 				3F9D2D711E4924DA007FA673 /* HealthManager.swift in Sources */,
 				3F9D2D3F1E492285007FA673 /* AppDelegate.swift in Sources */,
-				3FF7DB951E5252D400483D69 /* bloodPressureDetails.swift in Sources */,
+				3FF7DB951E5252D400483D69 /* BloodPressureController.swift in Sources */,
 				3FF7DB891E5230CE00483D69 /* gif+swift.swift in Sources */,
-				3FF7DB971E535FAA00483D69 /* weightDetails.swift in Sources */,
+				3FF7DB971E535FAA00483D69 /* WeightController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

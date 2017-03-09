@@ -6,7 +6,9 @@ target 'HBEnterData' do
   use_frameworks!
   pod 'PromiseKit', '~> 4.0'
   pod 'SwiftGifOrigin', '~> 1.6.1'
-
+  pod 'Fabric'
+  pod 'Crashlytics'
+  
   # Pods for HBEnterData
 
   target 'HBEnterDataTests' do

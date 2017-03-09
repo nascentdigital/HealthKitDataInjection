@@ -1,5 +1,5 @@
 //
-//  weightDetails.swift
+//  WeightController.swift
 //  HBEnterData
 //
 //  Created by Allyson on 2017-02-14.
@@ -17,13 +17,7 @@ class WeightController: BaseClassController {
     @IBOutlet weak var mostWeight: UITextField!
     @IBOutlet weak var frequency: UILabel!
     @IBOutlet weak var stepper: UIStepper!
-    
-    override func viewDidLoad() {
-        stepper.wraps = true
-        stepper.autorepeat = true
-        stepper.maximumValue = 20
-        stepper.value = 1;
-    }
+
     
     @IBAction func stepperValueChanged(_ sender: Any) {
         let value: Int = Int(stepper.value)

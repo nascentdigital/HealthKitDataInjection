@@ -52,7 +52,7 @@
 		39C752713C5CC4B99AAB1726 /* Pods-HBEnterData.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBEnterData.release.xcconfig"; path = "Pods/Target Support Files/Pods-HBEnterData/Pods-HBEnterData.release.xcconfig"; sourceTree = "<group>"; };
 		3F3F58C61E64BC1D009C1AF6 /* BaseClassController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseClassController.swift; sourceTree = "<group>"; };
 		3F41A2611E4B62CA00AE9354 /* StepCountController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepCountController.swift; sourceTree = "<group>"; };
-		3F9D2D3B1E492285007FA673 /* HBEnterData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HBEnterData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F9D2D3B1E492285007FA673 /* Left Shark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Left Shark.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F9D2D3E1E492285007FA673 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F9D2D401E492285007FA673 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3F9D2D451E492285007FA673 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -160,7 +160,7 @@
 		3F9D2D3C1E492285007FA673 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3F9D2D3B1E492285007FA673 /* HBEnterData.app */,
+				3F9D2D3B1E492285007FA673 /* Left Shark.app */,
 				3F9D2D4F1E492285007FA673 /* HBEnterDataTests.xctest */,
 				3F9D2D5A1E492285007FA673 /* HBEnterDataUITests.xctest */,
 			);
@@ -244,7 +244,7 @@
 			);
 			name = HBEnterData;
 			productName = HBEnterData;
-			productReference = 3F9D2D3B1E492285007FA673 /* HBEnterData.app */;
+			productReference = 3F9D2D3B1E492285007FA673 /* Left Shark.app */;
 			productType = "com.apple.product-type.application";
 		};
 		3F9D2D4E1E492285007FA673 /* HBEnterDataTests */ = {
@@ -679,7 +679,7 @@
 				INFOPLIST_FILE = HBEnterData/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.NascentDigital.HBEnterData;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Left Shark";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -694,7 +694,7 @@
 				INFOPLIST_FILE = HBEnterData/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.NascentDigital.HBEnterData;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Left Shark";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

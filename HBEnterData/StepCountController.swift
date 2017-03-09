@@ -1,5 +1,5 @@
 //
-//  stepCountDetails.swift
+//  StepCountController.swift
 //  HBEnterData
 //
 //  Created by Allyson on 2017-02-08.

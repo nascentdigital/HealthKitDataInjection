@@ -237,6 +237,7 @@
 				3F9D2D391E492285007FA673 /* Resources */,
 				2E7A0B80B663C3BEF4B40C50 /* [CP] Embed Pods Frameworks */,
 				D845C1D3055E2D9061B79095 /* [CP] Copy Pods Resources */,
+				44840C381E71D96500F1A76B /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -431,6 +432,19 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HBEnterDataTests/Pods-HBEnterDataTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		44840C381E71D96500F1A76B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 70778ebb392581d25205a93f9be633f6c1d16c7f 1ce627a733c7fbef76af742a550d0b5683d90821db2d13c4bb19a354ca9180f3";
 		};
 		5EB7AF154DAFC836FD009D48 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;

@@ -18,6 +18,9 @@ class BaseClassController: UIViewController {
     @IBOutlet weak var submit: UIBarButtonItem!
     @IBOutlet weak var leastDateRange: UIDatePicker!
     
+    var scrollView: UIScrollView!
+
+    
     let healthKitStore = HKHealthStore()
     let current = Date()
     var daysArray = [Date]()
@@ -29,15 +32,29 @@ class BaseClassController: UIViewController {
     }
     
     override func viewDidLoad() {
+        
         super.viewDidLoad()
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(BaseClassController.dismissKeyboard))
+        view.addGestureRecognizer(tap)
         loader.loadGif(name: "leftshark")
         loader.isHidden = true
         loaderBack.alpha = 0.8
         loaderBack.isHidden = true
         loadingText.isHidden = true
         mostDateRange.maximumDate = Calendar.current.date(byAdding: .year, value: 10, to: Date())
+        
+//        //SCROLLVIEW 
+//        scrollView = UIScrollView(frame: view.bounds)
+//        scrollView.backgroundColor = UIColor.black
+//        scrollView.contentSize = view.bounds.size
+//        //scrollView.autoresizingMask = UIViewAutoresizing.FlexibleWidth | UIViewAutoresizing.FlexibleHeight
+//        
+//        scrollView.addSubview(view)
+//        view.addSubview(scrollView)
     }
-    
+    func dismissKeyboard() {
+        view.endEditing(true)
+    }
     func unclickable() {
         submit.isEnabled = false
         mostDateRange.isEnabled = false

@@ -19,6 +19,7 @@ class ViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+
         //setting up table view
         self.tableView.contentInset = UIEdgeInsetsMake(20, 0, 0, 0);
         self.navigationController!.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName : UIColor.white]
@@ -31,8 +32,10 @@ class ViewController: UITableViewController {
         
         //get authorization for health data from user
         HealthManager.sharedInstance.requestHKAuthorization { (true, error) in}
+        
     }
 
+    
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }

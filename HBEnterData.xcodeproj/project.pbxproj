@@ -677,6 +677,7 @@
 				CODE_SIGN_ENTITLEMENTS = HBEnterData/HBEnterData.entitlements;
 				DEVELOPMENT_TEAM = 9SNZ8X3UFW;
 				INFOPLIST_FILE = HBEnterData/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.NascentDigital.HBEnterData;
 				PRODUCT_NAME = "Left Shark";
@@ -692,6 +693,7 @@
 				CODE_SIGN_ENTITLEMENTS = HBEnterData/HBEnterData.entitlements;
 				DEVELOPMENT_TEAM = 9SNZ8X3UFW;
 				INFOPLIST_FILE = HBEnterData/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.NascentDigital.HBEnterData;
 				PRODUCT_NAME = "Left Shark";

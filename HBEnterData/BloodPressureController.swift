@@ -36,7 +36,6 @@ class BloodPressureController: BaseClassController {
             daysArray.append(calendar.date(byAdding: .day, value: i, to: start)!)
         }
     }
-    
     //ACTIVITY INDICATOR STUFF
     func unclickableBP() {
         leastSystolic.isEnabled = false

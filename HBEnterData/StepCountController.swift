@@ -14,7 +14,7 @@ class StepCountController: BaseClassController {
     var stepsArray = [Int]()
     @IBOutlet weak var leastSteps: UITextField!
     @IBOutlet weak var mostSteps: UITextField!
-
+    
     //creating the data set to be sent to healthbook
     func createData(leastStep: Int, mostStep: Int, start: Date, end: Date) {
         let daysdifference = daysBetween(start: start as Date, end: end as Date)
